@@ -1,5 +1,5 @@
-import './style.css'
-import dohGif from './src/assets/doh.gif';
+import "./style.css";
+import dohGif from "./src/assets/doh.gif";
 
 const cachedQuestions = {};
 const seenQuestionIds = new Set();
@@ -7,20 +7,20 @@ let lastQuestionId = null;
 
 const categoryFiles = {
   "Science & Tech": "/data/science_tech.json",
-  "Philosophy": "/data/philosophy.json"
+  Philosophy: "/data/philosophy.json",
 };
 
-const topicCategoryEl = document.getElementById('topic-category');
-const topicTextEl = document.getElementById('topic-text');
-const categorySelect = document.getElementById('category-select');
-const btnNice = document.getElementById('btn-nice');
-const btnViolence = document.getElementById('btn-violence');
-const topicCard = document.querySelector('.topic-card');
+const topicCategoryEl = document.getElementById("topic-category");
+const topicTextEl = document.getElementById("topic-text");
+const categorySelect = document.getElementById("category-select");
+const btnNice = document.getElementById("btn-nice");
+const btnViolence = document.getElementById("btn-violence");
+const topicCard = document.querySelector(".topic-card");
 
-const modal = document.getElementById('submit-modal');
-const btnSubmitTopic = document.getElementById('btn-submit-topic');
-const btnCloseModal = document.getElementById('btn-close-modal');
-const formSubmit = document.getElementById('submit-form');
+const modal = document.getElementById("submit-modal");
+const btnSubmitTopic = document.getElementById("btn-submit-topic");
+const btnCloseModal = document.getElementById("btn-close-modal");
+const formSubmit = document.getElementById("submit-form");
 
 async function getQuestions(category) {
   if (category === "All") {
@@ -49,22 +49,24 @@ async function getQuestions(category) {
 
 async function spin(mode) {
   const selectedCategory = categorySelect.value;
-  
+
   const currentQuestions = await getQuestions(selectedCategory);
-  
-  const excludeSeen = document.getElementById('exclude-seen-checkbox').checked;
-  
-  let filtered = currentQuestions.filter(q => q.mode === mode);
-  
+
+  const excludeSeen = document.getElementById("exclude-seen-checkbox").checked;
+
+  let filtered = currentQuestions.filter((q) => q.mode === mode);
+
   if (excludeSeen) {
-    filtered = filtered.filter(q => !seenQuestionIds.has(q.id));
+    filtered = filtered.filter((q) => !seenQuestionIds.has(q.id));
   } else if (filtered.length > 1) {
     // Better randomisation: prevent immediate back-to-back repeats
-    filtered = filtered.filter(q => q.id !== lastQuestionId);
+    filtered = filtered.filter((q) => q.id !== lastQuestionId);
   }
 
   if (filtered.length === 0) {
-    const totalPossible = currentQuestions.filter(q => q.mode === mode).length;
+    const totalPossible = currentQuestions.filter(
+      (q) => q.mode === mode,
+    ).length;
     if (excludeSeen && totalPossible > 0) {
       topicTextEl.innerHTML = `
         <div style="margin-bottom: 1.5rem;">
@@ -74,24 +76,26 @@ async function spin(mode) {
         <button id="btn-suggest-empty" class="btn btn-secondary" style="margin-top: 1.5rem;">SUGGEST A TOPIC</button>
       `;
       topicCategoryEl.textContent = "EMPTY";
-      
-      document.getElementById('btn-suggest-empty').addEventListener('click', () => {
-        modal.showModal();
-      });
+
+      document
+        .getElementById("btn-suggest-empty")
+        .addEventListener("click", () => {
+          modal.showModal();
+        });
       return;
     }
     topicTextEl.textContent = "No arguments found for this combination.";
     topicCategoryEl.textContent = "EMPTY";
     return;
   }
-  
+
   // Zippy glitch effect (Neo-brutalism interaction)
-  topicCard.classList.add('glitch');
-  setTimeout(() => topicCard.classList.remove('glitch'), 150);
+  topicCard.classList.add("glitch");
+  setTimeout(() => topicCard.classList.remove("glitch"), 150);
 
   const randomIndex = Math.floor(Math.random() * filtered.length);
   const selected = filtered[randomIndex];
-  
+
   seenQuestionIds.add(selected.id);
   lastQuestionId = selected.id;
 
@@ -109,32 +113,32 @@ async function spin(mode) {
 }
 
 function generateScramble(length) {
-  const chars = '!<>-_\\/[]{}—=+*^?#_';
-  let str = '';
+  const chars = "!<>-_\\/[]{}—=+*^?#_";
+  let str = "";
   // Limit to avoid overflow during scramble
-  for (let i=0; i < Math.min(length, 30); i++) {
+  for (let i = 0; i < Math.min(length, 30); i++) {
     str += chars[Math.floor(Math.random() * chars.length)];
   }
-  return str + '...';
+  return str + "...";
 }
 
-btnNice.addEventListener('click', () => spin('nice'));
-btnViolence.addEventListener('click', () => spin('violence'));
+btnNice.addEventListener("click", () => spin("nice"));
+btnViolence.addEventListener("click", () => spin("violence"));
 
-btnSubmitTopic.addEventListener('click', () => {
+btnSubmitTopic.addEventListener("click", () => {
   modal.showModal();
 });
 
-btnCloseModal.addEventListener('click', () => {
+btnCloseModal.addEventListener("click", () => {
   modal.close();
 });
 
-formSubmit.addEventListener('submit', async (e) => {
+formSubmit.addEventListener("submit", async (e) => {
   e.preventDefault();
-  
-  const category = document.getElementById('new-category').value;
-  const topic = document.getElementById('new-topic').value;
-  
+
+  const category = document.getElementById("new-category").value;
+  const topic = document.getElementById("new-topic").value;
+
   const submitBtn = formSubmit.querySelector('button[type="submit"]');
   const originalText = submitBtn.textContent;
   submitBtn.textContent = "Submitting...";
@@ -142,27 +146,29 @@ formSubmit.addEventListener('submit', async (e) => {
 
   try {
     // STEP 1: Replace this with your actual Web3Forms access key
-    const web3FormsAccessKey = 'YOUR_ACCESS_KEY_HERE';
-    
-    if (web3FormsAccessKey === 'YOUR_ACCESS_KEY_HERE') {
-      alert("DEVELOPER NOTE: You need to put your Web3Forms access key in main.js!");
+    const web3FormsAccessKey = "WEB3_FORM_KEY";
+
+    if (web3FormsAccessKey === "WEB3_FORM_KEY") {
+      alert(
+        "DEVELOPER NOTE: You need to put your Web3Forms access key in main.js!",
+      );
       return;
     }
 
-    const res = await fetch('https://api.web3forms.com/submit', {
-      method: 'POST',
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
       headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
+        Accept: "application/json",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
         access_key: web3FormsAccessKey,
         subject: `New Do'h Suggestion: [${category}]`,
         category: category,
-        topic: topic
-      })
+        topic: topic,
+      }),
     });
-    
+
     if (!res.ok) throw new Error("Failed to submit to Web3Forms");
 
     alert("Topic submitted for review! Thanks for contributing.");
@@ -176,5 +182,3 @@ formSubmit.addEventListener('submit', async (e) => {
     submitBtn.disabled = false;
   }
 });
-
-
