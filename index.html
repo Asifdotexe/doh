@@ -21,12 +21,12 @@
       <main class="main-content">
         <div class="filters">
           <div class="filter-group">
-            <label for="category-select" class="filter-label">BATTLEGROUND:</label>
-            <select id="category-select" class="brutalist-select">
-              <option value="All">ALL TOPICS</option>
-              <option value="Science & Tech">SCIENCE & TECH</option>
-              <option value="Philosophy">PHILOSOPHY</option>
-            </select>
+            <label class="filter-label">BATTLEGROUND:</label>
+            <div class="checkbox-group" id="category-checkboxes">
+              <label><input type="checkbox" value="Science" class="brutalist-checkbox" checked> SCIENCE</label>
+              <label><input type="checkbox" value="Technology" class="brutalist-checkbox" checked> TECHNOLOGY</label>
+              <label><input type="checkbox" value="Philosophy" class="brutalist-checkbox" checked> PHILOSOPHY</label>
+            </div>
           </div>
           <div class="filter-group checkbox-group">
             <input type="checkbox" id="exclude-seen-checkbox" class="brutalist-checkbox">
@@ -58,9 +58,11 @@
         <h3>Submit a new Topic</h3>
         <form id="submit-form">
           <div class="input-group">
-            <label for="new-category">Category</label>
-            <select id="new-category" required>
-              <option value="Science & Tech">Science & Tech</option>
+            <label for="new-category" class="filter-label">CATEGORY</label>
+            <select id="new-category" name="category" class="brutalist-select" required>
+              <option value="Science">SCIENCE</option>
+              <option value="Technology">TECHNOLOGY</option>
+              <option value="Philosophy">PHILOSOPHY</option>
             </select>
           </div>
           <div class="input-group">

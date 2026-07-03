@@ -1,0 +1,512 @@
+[
+  {
+    "id": "1",
+    "category": "Science",
+    "topic": "If we discover alien microbial life, should we preserve it or study it to extinction?",
+    "mode": "nice"
+  },
+  {
+    "id": "4",
+    "category": "Science",
+    "topic": "What is the most plausible solution to the Fermi Paradox?",
+    "mode": "nice"
+  },
+  {
+    "id": "7",
+    "category": "Science",
+    "topic": "Is there a fundamental difference between biological intelligence and synthetic intelligence?",
+    "mode": "nice"
+  },
+  {
+    "id": "8",
+    "category": "Science",
+    "topic": "Does the observer effect in quantum mechanics suggest that consciousness plays a fundamental role in reality?",
+    "mode": "nice"
+  },
+  {
+    "id": "9",
+    "category": "Science",
+    "topic": "What are the most profound philosophical implications of quantum entanglement?",
+    "mode": "nice"
+  },
+  {
+    "id": "10",
+    "category": "Science",
+    "topic": "If the Many-Worlds interpretation is true, do our choices actually matter?",
+    "mode": "nice"
+  },
+  {
+    "id": "13",
+    "category": "Science",
+    "topic": "Should the deployment of zero-day exploits by nation-states be governed by treaties similar to chemical weapons?",
+    "mode": "nice"
+  },
+  {
+    "id": "14",
+    "category": "Science",
+    "topic": "Is it possible to build a perfectly secure operating system, or is complexity inherently the enemy of security?",
+    "mode": "nice"
+  },
+  {
+    "id": "17",
+    "category": "Science",
+    "topic": "Space exploration is a disgusting waste of money when we have urgent problems on Earth.",
+    "mode": "violence"
+  },
+  {
+    "id": "19",
+    "category": "Science",
+    "topic": "People who refuse lab-grown meat are holding back human civilization.",
+    "mode": "violence"
+  },
+  {
+    "id": "23",
+    "category": "Science",
+    "topic": "Anyone who thinks a Large Language Model is actually 'thinking' is deeply delusional.",
+    "mode": "violence"
+  },
+  {
+    "id": "31",
+    "category": "Science",
+    "topic": "Is the universe infinite, or does it curve back on itself in a higher dimension?",
+    "mode": "nice"
+  },
+  {
+    "id": "32",
+    "category": "Science",
+    "topic": "What existed before the Big Bang, or is the concept of 'before' meaningless without time?",
+    "mode": "nice"
+  },
+  {
+    "id": "34",
+    "category": "Science",
+    "topic": "Could a silicon-based biology exist in the universe, or is carbon the only viable foundation for life?",
+    "mode": "nice"
+  },
+  {
+    "id": "36",
+    "category": "Science",
+    "topic": "Does convergent evolution imply that humanoid aliens are actually highly probable?",
+    "mode": "nice"
+  },
+  {
+    "id": "38",
+    "category": "Science",
+    "topic": "Does the Holographic Principle suggest that our 3D reality is just a projection from a 2D surface?",
+    "mode": "nice"
+  },
+  {
+    "id": "40",
+    "category": "Science",
+    "topic": "String theory has been a 40-year intellectual dead end that ruined theoretical physics.",
+    "mode": "violence"
+  },
+  {
+    "id": "41",
+    "category": "Science",
+    "topic": "The search for Dark Matter is just scientists refusing to admit Einstein's equations might be wrong at galactic scales.",
+    "mode": "violence"
+  },
+  {
+    "id": "42",
+    "category": "Science",
+    "topic": "Multiverse theory isn't science; it's just science fiction for physicists who can't test their equations.",
+    "mode": "violence"
+  },
+  {
+    "id": "43",
+    "category": "Science",
+    "topic": "Evolutionary psychology is mostly just pseudo-scientific justification for modern toxic behavior.",
+    "mode": "violence"
+  },
+  {
+    "id": "45",
+    "category": "Science",
+    "topic": "People who oppose GMOs are directly responsible for mass starvation in developing nations.",
+    "mode": "violence"
+  },
+  {
+    "id": "46",
+    "category": "Science",
+    "topic": "The concept of an 'alpha male' in human biology is based on flawed wolf studies and perpetuated by insecure podcasters.",
+    "mode": "violence"
+  },
+  {
+    "id": "48",
+    "category": "Science",
+    "topic": "Panpsychism is just scientists giving up on actually solving the hard problem of consciousness.",
+    "mode": "violence"
+  },
+  {
+    "id": "49",
+    "category": "Science",
+    "topic": "Time travel to the past is mathematically absurd and physicists only write papers on it to get media attention.",
+    "mode": "violence"
+  },
+  {
+    "id": "50",
+    "category": "Science",
+    "topic": "The Kardashev scale is a ridiculously anthropocentric way to measure alien civilizations.",
+    "mode": "violence"
+  },
+  {
+    "id": "51",
+    "category": "Science",
+    "topic": "Does the replication crisis in modern science indicate a flaw in the scientific method, or just a flaw in human academic incentives?",
+    "mode": "nice"
+  },
+  {
+    "id": "52",
+    "category": "Science",
+    "topic": "Peer review is fundamentally broken and mostly serves to protect established paradigms from radical new ideas.",
+    "mode": "violence"
+  },
+  {
+    "id": "53",
+    "category": "Science",
+    "topic": "Can we ever achieve true objectivity in scientific observation, or are we inherently biased by our cognitive limitations?",
+    "mode": "nice"
+  },
+  {
+    "id": "54",
+    "category": "Science",
+    "topic": "'Publish or perish' culture has generated more useless, derivative research in the last decade than actual scientific breakthroughs.",
+    "mode": "violence"
+  },
+  {
+    "id": "55",
+    "category": "Science",
+    "topic": "If the universe goes through infinite cycles of Big Bangs and Big Crunches (Conformal Cyclic Cosmology), does time even have a meaningful beginning?",
+    "mode": "nice"
+  },
+  {
+    "id": "56",
+    "category": "Science",
+    "topic": "The Big Bang theory relies on so many mathematical patches (like inflation and dark energy) that it's starting to look like the geocentric model of the universe.",
+    "mode": "violence"
+  },
+  {
+    "id": "57",
+    "category": "Science",
+    "topic": "Could our entire universe just be the three-dimensional interior of a four-dimensional black hole?",
+    "mode": "nice"
+  },
+  {
+    "id": "58",
+    "category": "Science",
+    "topic": "Searching for a 'Theory of Everything' is an arrogant assumption that human mathematics can fully map the physical universe.",
+    "mode": "violence"
+  },
+  {
+    "id": "59",
+    "category": "Science",
+    "topic": "Is the 'Dark Forest' hypothesis the most logical explanation for why the universe is so quiet?",
+    "mode": "nice"
+  },
+  {
+    "id": "60",
+    "category": "Science",
+    "topic": "The idea that aliens haven't visited us because we are 'too primitive' is just human narcissism masking our extreme cosmic isolation.",
+    "mode": "violence"
+  },
+  {
+    "id": "61",
+    "category": "Science",
+    "topic": "Does the concept of the 'Great Filter' imply that our greatest existential threat is still ahead of us, or safely behind us?",
+    "mode": "nice"
+  },
+  {
+    "id": "62",
+    "category": "Science",
+    "topic": "The Drake Equation is mathematically useless because we are essentially multiplying completely made-up numbers.",
+    "mode": "violence"
+  },
+  {
+    "id": "63",
+    "category": "Science",
+    "topic": "If the Zoo Hypothesis is true, what specific human behavior would finally prompt extraterrestrials to make open contact?",
+    "mode": "nice"
+  },
+  {
+    "id": "64",
+    "category": "Science",
+    "topic": "SETI is a massive waste of funding; any civilization advanced enough to contact us wouldn't use primitive radio waves.",
+    "mode": "violence"
+  },
+  {
+    "id": "66",
+    "category": "Science",
+    "topic": "Sending out Voyager's Golden Record with our exact coordinates was the most recklessly stupid thing humanity has ever done on a cosmic scale.",
+    "mode": "violence"
+  },
+  {
+    "id": "68",
+    "category": "Science",
+    "topic": "Hard determinism means you have absolutely zero free will and your entire life is just a complex, unavoidable chemical reaction playing out on a wet rock.",
+    "mode": "violence"
+  },
+  {
+    "id": "69",
+    "category": "Science",
+    "topic": "If the universe is purely deterministic (Superdeterminism), does that mean the scientists running quantum experiments had no actual choice in what they decided to measure?",
+    "mode": "nice"
+  },
+  {
+    "id": "71",
+    "category": "Science",
+    "topic": "The 'Banach-Tarski paradox' proves you can mathematically cut a sphere into pieces and reassemble them into two identical spheres. Does this mean mathematical infinity is a flawed concept in the physical world?",
+    "mode": "nice"
+  },
+  {
+    "id": "72",
+    "category": "Science",
+    "topic": "The 'Tragedy of the Commons' proves that humans are fundamentally incapable of self-regulating without an authoritarian body to enforce laws.",
+    "mode": "violence"
+  },
+  {
+    "id": "74",
+    "category": "Science",
+    "topic": "'Occam's Razor' is consistently used by lazy thinkers to dismiss complex, nuanced theories simply because they can't understand them.",
+    "mode": "violence"
+  },
+  {
+    "id": "75",
+    "category": "Science",
+    "topic": "The 'Dunning-Kruger effect' shows that people with low ability overestimate themselves. Does this mean true experts are cursed to live with constant Imposter Syndrome?",
+    "mode": "nice"
+  },
+  {
+    "id": "78",
+    "category": "Science",
+    "topic": "The 'Overview Effect' is a profound cognitive shift reported by astronauts when viewing Earth from space. Should world leaders be legally required to experience orbit before taking office?",
+    "mode": "nice"
+  },
+  {
+    "id": "101",
+    "category": "Science",
+    "topic": "Is it likely that intelligent extraterrestrial life exists, and why have we not found it yet (the Fermi Paradox)?",
+    "mode": "nice"
+  },
+  {
+    "id": "102",
+    "category": "Science",
+    "topic": "Should humanity prioritize colonizing Mars or solving problems on Earth first?",
+    "mode": "nice"
+  },
+  {
+    "id": "103",
+    "category": "Science",
+    "topic": "What would the discovery of microbial life on another planet mean for our understanding of biology?",
+    "mode": "nice"
+  },
+  {
+    "id": "105",
+    "category": "Science",
+    "topic": "What are the biggest challenges of long-duration human spaceflight, and how might we solve them?",
+    "mode": "nice"
+  },
+  {
+    "id": "106",
+    "category": "Science",
+    "topic": "Is dark matter real, or could our understanding of gravity be fundamentally wrong?",
+    "mode": "nice"
+  },
+  {
+    "id": "108",
+    "category": "Science",
+    "topic": "Should space resources like asteroid minerals be owned by whoever mines them first?",
+    "mode": "nice"
+  },
+  {
+    "id": "109",
+    "category": "Science",
+    "topic": "How will the growing problem of space debris affect future space exploration?",
+    "mode": "nice"
+  },
+  {
+    "id": "110",
+    "category": "Science",
+    "topic": "What is the ultimate fate of the universe, and how do different theories compare?",
+    "mode": "nice"
+  },
+  {
+    "id": "112",
+    "category": "Science",
+    "topic": "Should CRISPR gene editing be used on human embryos to eliminate genetic diseases?",
+    "mode": "nice"
+  },
+  {
+    "id": "113",
+    "category": "Science",
+    "topic": "What can extremophiles (organisms that survive in extreme environments) teach us about the limits of life?",
+    "mode": "nice"
+  },
+  {
+    "id": "114",
+    "category": "Science",
+    "topic": "How does the human microbiome influence our health, mood, and behavior?",
+    "mode": "nice"
+  },
+  {
+    "id": "116",
+    "category": "Science",
+    "topic": "How might antibiotic resistance become the next major global health crisis?",
+    "mode": "nice"
+  },
+  {
+    "id": "117",
+    "category": "Science",
+    "topic": "What ethical issues arise from growing human organs in labs for transplant?",
+    "mode": "nice"
+  },
+  {
+    "id": "118",
+    "category": "Science",
+    "topic": "How do epigenetics challenge our traditional understanding of genetics and inheritance?",
+    "mode": "nice"
+  },
+  {
+    "id": "120",
+    "category": "Science",
+    "topic": "How could synthetic biology change medicine, agriculture, and manufacturing?",
+    "mode": "nice"
+  },
+  {
+    "id": "121",
+    "category": "Science",
+    "topic": "What are the most effective strategies for removing carbon dioxide from the atmosphere?",
+    "mode": "nice"
+  },
+  {
+    "id": "122",
+    "category": "Science",
+    "topic": "How might tipping points in the climate system create cascading and irreversible changes?",
+    "mode": "nice"
+  },
+  {
+    "id": "123",
+    "category": "Science",
+    "topic": "What role should nuclear energy play in the transition away from fossil fuels?",
+    "mode": "nice"
+  },
+  {
+    "id": "124",
+    "category": "Science",
+    "topic": "How does biodiversity loss affect ecosystem stability and human wellbeing?",
+    "mode": "nice"
+  },
+  {
+    "id": "125",
+    "category": "Science",
+    "topic": "Could geoengineering solutions like solar radiation management be used safely?",
+    "mode": "nice"
+  },
+  {
+    "id": "126",
+    "category": "Science",
+    "topic": "What lessons can we learn from past mass extinctions about the current biodiversity crisis?",
+    "mode": "nice"
+  },
+  {
+    "id": "127",
+    "category": "Science",
+    "topic": "How might rising sea levels reshape global geography and human migration patterns?",
+    "mode": "nice"
+  },
+  {
+    "id": "128",
+    "category": "Science",
+    "topic": "What are the environmental costs and benefits of different renewable energy sources?",
+    "mode": "nice"
+  },
+  {
+    "id": "129",
+    "category": "Science",
+    "topic": "How does deforestation affect global weather patterns beyond just local ecosystems?",
+    "mode": "nice"
+  },
+  {
+    "id": "130",
+    "category": "Science",
+    "topic": "What scientific breakthroughs would be needed to make carbon capture economically viable at scale?",
+    "mode": "nice"
+  },
+  {
+    "id": 507,
+    "topic": "A hospital AI can identify patients likely to die within six months with 90% accuracy. Should this information be shared with patients who have not asked?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 508,
+    "topic": "There are five patients who will die without organ transplants. A healthy patient comes in for a checkup. Would it ever be ethical to sacrifice one to save five?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 509,
+    "topic": "A doctor can save a patient's life with an experimental treatment that has not been approved. The patient is unconscious and cannot consent. Should the doctor proceed?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 510,
+    "topic": "Two patients need a liver transplant, but only one organ is available. One patient is a 30-year-old parent; the other is a 60-year-old scientist close to a major breakthrough. How do you decide?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 511,
+    "topic": "A pharmaceutical company develops a life-saving drug but prices it so high that only wealthy patients can afford it. Is profit-driven pricing ethical for essential medicines?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 512,
+    "topic": "Your family member has a terminal illness and asks you to help them end their life peacefully. It is illegal in your jurisdiction. What do you do?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 513,
+    "topic": "A genetic test reveals your unborn child will have a condition that causes severe suffering but is not fatal. There is no treatment. What is the ethical choice?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 514,
+    "topic": "A vaccine has a 1 in 100,000 chance of serious side effects but would prevent a disease that kills 1 in 1,000. Should it be mandatory?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 515,
+    "topic": "Is it ethical to have children knowing the environmental impact each person creates and the world they may inherit?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 516,
+    "topic": "A developing country discovers a massive oil reserve that could lift millions out of poverty but would significantly increase global carbon emissions. Should they extract it?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 517,
+    "topic": "A pharmaceutical company wants to test a new malaria vaccine in a developing country where the disease is common. The trials carry risk, but success could save millions. Is this ethical if the country lacks the regulatory infrastructure to oversee the trials?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 518,
+    "topic": "An endangered species is destroying crops that a local community depends on for survival. The community wants to cull the animals. Conservationists object. Who is right?",
+    "category": "Science",
+    "mode": "violence"
+  },
+  {
+    "id": 519,
+    "topic": "Should companies be allowed to offset their carbon emissions by buying credits, or does this just give wealthy polluters permission to keep polluting?",
+    "category": "Science",
+    "mode": "violence"
+  }
+]

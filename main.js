@@ -6,13 +6,13 @@ const seenQuestionIds = new Set();
 let lastQuestionId = null;
 
 const categoryFiles = {
-  "Science & Tech": `${import.meta.env.BASE_URL}data/science_tech.json`,
+  Science: `${import.meta.env.BASE_URL}data/science.json`,
+  Technology: `${import.meta.env.BASE_URL}data/technology.json`,
   Philosophy: `${import.meta.env.BASE_URL}data/philosophy.json`,
 };
 
 const topicCategoryEl = document.getElementById("topic-category");
 const topicTextEl = document.getElementById("topic-text");
-const categorySelect = document.getElementById("category-select");
 const btnNice = document.getElementById("btn-nice");
 const btnViolence = document.getElementById("btn-violence");
 const topicCard = document.querySelector(".topic-card");
@@ -23,13 +23,6 @@ const btnCloseModal = document.getElementById("btn-close-modal");
 const formSubmit = document.getElementById("submit-form");
 
 async function getQuestions(category) {
-  if (category === "All") {
-    let allQ = [];
-    for (const cat of Object.keys(categoryFiles)) {
-      allQ = allQ.concat(await getQuestions(cat));
-    }
-    return allQ;
-  }
 
   if (cachedQuestions[category]) {
     return cachedQuestions[category];
@@ -48,9 +41,19 @@ async function getQuestions(category) {
 }
 
 async function spin(mode) {
-  const selectedCategory = categorySelect.value;
+  const checkboxes = document.querySelectorAll('#category-checkboxes input[type="checkbox"]:checked');
+  const selectedCategories = Array.from(checkboxes).map(cb => cb.value);
 
-  const currentQuestions = await getQuestions(selectedCategory);
+  if (selectedCategories.length === 0) {
+    topicTextEl.textContent = "Please select at least one battleground.";
+    topicCategoryEl.textContent = "EMPTY";
+    return;
+  }
+
+  let currentQuestions = [];
+  for (const cat of selectedCategories) {
+    currentQuestions = currentQuestions.concat(await getQuestions(cat));
+  }
 
   const excludeSeen = document.getElementById("exclude-seen-checkbox").checked;
 

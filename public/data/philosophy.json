@@ -1,9 +1,548 @@
 [
-  { "id": "9", "category": "Philosophy", "topic": "Free will is an illusion; every choice you make is predetermined by physics.", "mode": "violence" },
-  { "id": "10", "category": "Philosophy", "topic": "Is it more important to maximize happiness or to minimize suffering?", "mode": "nice" },
-  { "id": "11", "category": "Philosophy", "topic": "Morality is entirely socially constructed and objective right or wrong does not exist.", "mode": "violence" },
-  { "id": "12", "category": "Philosophy", "topic": "In the Ship of Theseus paradox, if we replace every single cell in a human body over 7 years, is it still the exact same person?", "mode": "nice" },
-  { "id": "13", "category": "Philosophy", "topic": "Roko's Basilisk is just a techno-futurist reinvention of Pascal's Wager for people who read too much sci-fi.", "mode": "violence" },
-  { "id": "14", "category": "Philosophy", "topic": "Maxwell's Demon suggests that information is intrinsically linked to entropy. Does this mean information is a fundamental physical property of the universe?", "mode": "nice" },
-  { "id": "15", "category": "Philosophy", "topic": "The Trolley Problem is a useless philosophical toy that has absolutely no practical application in programming real-world AI morality.", "mode": "violence" }
+  {
+    "id": "9",
+    "category": "Philosophy",
+    "topic": "Free will is an illusion; every choice you make is predetermined by physics.",
+    "mode": "violence"
+  },
+  {
+    "id": "10",
+    "category": "Philosophy",
+    "topic": "Is it more important to maximize happiness or to minimize suffering?",
+    "mode": "nice"
+  },
+  {
+    "id": "11",
+    "category": "Philosophy",
+    "topic": "Morality is entirely socially constructed and objective right or wrong does not exist.",
+    "mode": "violence"
+  },
+  {
+    "id": "12",
+    "category": "Philosophy",
+    "topic": "In the Ship of Theseus paradox, if we replace every single cell in a human body over 7 years, is it still the exact same person?",
+    "mode": "nice"
+  },
+  {
+    "id": "13",
+    "category": "Philosophy",
+    "topic": "Roko's Basilisk is just a techno-futurist reinvention of Pascal's Wager for people who read too much sci-fi.",
+    "mode": "violence"
+  },
+  {
+    "id": "14",
+    "category": "Philosophy",
+    "topic": "Maxwell's Demon suggests that information is intrinsically linked to entropy. Does this mean information is a fundamental physical property of the universe?",
+    "mode": "nice"
+  },
+  {
+    "id": "15",
+    "category": "Philosophy",
+    "topic": "The Trolley Problem is a useless philosophical toy that has absolutely no practical application in programming real-world AI morality.",
+    "mode": "violence"
+  },
+  {
+    "id": "101",
+    "category": "Philosophy",
+    "topic": "If a tree falls in a forest and no one is around to hear it, does it make a sound -- and does the answer change if we define sound as vibration versus experience?",
+    "mode": "nice"
+  },
+  {
+    "id": "102",
+    "category": "Philosophy",
+    "topic": "Could we be living in a simulation, and if so, does it matter?",
+    "mode": "nice"
+  },
+  {
+    "id": "103",
+    "category": "Philosophy",
+    "topic": "Is consciousness an illusion created by the brain, or is it the most fundamental thing in the universe?",
+    "mode": "nice"
+  },
+  {
+    "id": "104",
+    "category": "Philosophy",
+    "topic": "If you could upload your mind to a computer, would the digital version be you?",
+    "mode": "nice"
+  },
+  {
+    "id": "105",
+    "category": "Philosophy",
+    "topic": "Do colors look the same to everyone, or could your red be my blue?",
+    "mode": "nice"
+  },
+  {
+    "id": "106",
+    "category": "Philosophy",
+    "topic": "If every cell in your body is replaced over seven years, are you the same person you were a decade ago?",
+    "mode": "nice"
+  },
+  {
+    "id": "107",
+    "category": "Philosophy",
+    "topic": "Is mathematics discovered or invented?",
+    "mode": "nice"
+  },
+  {
+    "id": "108",
+    "category": "Philosophy",
+    "topic": "Can something exist if no conscious being has ever perceived or conceived of it?",
+    "mode": "nice"
+  },
+  {
+    "id": "109",
+    "category": "Philosophy",
+    "topic": "If you were born into a completely different family, culture, and era, would you still be you?",
+    "mode": "nice"
+  },
+  {
+    "id": "110",
+    "category": "Philosophy",
+    "topic": "What came first -- the laws of physics or the universe they describe?",
+    "mode": "nice"
+  },
+  {
+    "id": "111",
+    "category": "Philosophy",
+    "topic": "Is morality objective, or is it entirely a human construction that varies by culture?",
+    "mode": "nice"
+  },
+  {
+    "id": "112",
+    "category": "Philosophy",
+    "topic": "If you could prevent a terrible event but only by doing something morally wrong, would it be justified?",
+    "mode": "nice"
+  },
+  {
+    "id": "113",
+    "category": "Philosophy",
+    "topic": "Do we have a moral obligation to future generations we will never meet?",
+    "mode": "nice"
+  },
+  {
+    "id": "114",
+    "category": "Philosophy",
+    "topic": "Is it possible to be truly selfless, or is every good deed motivated by some form of self-interest?",
+    "mode": "nice"
+  },
+  {
+    "id": "115",
+    "category": "Philosophy",
+    "topic": "If an AI becomes sentient, would it deserve the same moral rights as humans?",
+    "mode": "nice"
+  },
+  {
+    "id": "116",
+    "category": "Philosophy",
+    "topic": "Is ignorance ever a valid moral excuse?",
+    "mode": "nice"
+  },
+  {
+    "id": "117",
+    "category": "Philosophy",
+    "topic": "Should we judge historical figures by the moral standards of their time or ours?",
+    "mode": "nice"
+  },
+  {
+    "id": "118",
+    "category": "Philosophy",
+    "topic": "Is it more ethical to save five strangers or one person you love?",
+    "mode": "nice"
+  },
+  {
+    "id": "119",
+    "category": "Philosophy",
+    "topic": "Can a society function without any shared moral values?",
+    "mode": "nice"
+  },
+  {
+    "id": "120",
+    "category": "Philosophy",
+    "topic": "If you could eliminate all suffering but had to also eliminate all joy, would it be worth it?",
+    "mode": "nice"
+  },
+  {
+    "id": "121",
+    "category": "Philosophy",
+    "topic": "If every event is caused by a prior event, do we actually have free will?",
+    "mode": "nice"
+  },
+  {
+    "id": "122",
+    "category": "Philosophy",
+    "topic": "If scientists could perfectly predict your choices before you made them, would you still consider them choices?",
+    "mode": "nice"
+  },
+  {
+    "id": "123",
+    "category": "Philosophy",
+    "topic": "Is a person fully responsible for their actions if their behavior is shaped by genetics and environment they did not choose?",
+    "mode": "nice"
+  },
+  {
+    "id": "124",
+    "category": "Philosophy",
+    "topic": "Does the existence of subconscious decision-making undermine the concept of free will?",
+    "mode": "nice"
+  },
+  {
+    "id": "125",
+    "category": "Philosophy",
+    "topic": "If you could see a complete replay of every moment that led to a criminal's actions, would punishment still feel justified?",
+    "mode": "nice"
+  },
+  {
+    "id": "126",
+    "category": "Philosophy",
+    "topic": "Is free will compatible with an omniscient deity who knows everything that will happen?",
+    "mode": "nice"
+  },
+  {
+    "id": "127",
+    "category": "Philosophy",
+    "topic": "Do we have free will, or do we just have the illusion of it -- and does the distinction matter?",
+    "mode": "nice"
+  },
+  {
+    "id": "128",
+    "category": "Philosophy",
+    "topic": "If a robot behaved exactly like a human in every way, would it have free will?",
+    "mode": "nice"
+  },
+  {
+    "id": "129",
+    "category": "Philosophy",
+    "topic": "Can you choose to believe something, or do beliefs simply happen to you based on evidence and experience?",
+    "mode": "nice"
+  },
+  {
+    "id": "130",
+    "category": "Philosophy",
+    "topic": "If the universe were rewound to the exact same state, would everything play out identically?",
+    "mode": "nice"
+  },
+  {
+    "id": "131",
+    "category": "Philosophy",
+    "topic": "Does life need to have an inherent purpose to be meaningful, or do we create our own meaning?",
+    "mode": "nice"
+  },
+  {
+    "id": "132",
+    "category": "Philosophy",
+    "topic": "If the universe will eventually end in heat death and nothing survives, does anything we do truly matter?",
+    "mode": "nice"
+  },
+  {
+    "id": "133",
+    "category": "Philosophy",
+    "topic": "Is the pursuit of happiness the highest goal, or is there something more important?",
+    "mode": "nice"
+  },
+  {
+    "id": "134",
+    "category": "Philosophy",
+    "topic": "Would immortality give life more meaning or strip it of all meaning?",
+    "mode": "nice"
+  },
+  {
+    "id": "135",
+    "category": "Philosophy",
+    "topic": "Is it better to live a comfortable life without much impact or a difficult life that changes the world?",
+    "mode": "nice"
+  },
+  {
+    "id": "136",
+    "category": "Philosophy",
+    "topic": "Do we fear death because of the unknown, the loss of experience, or something else entirely?",
+    "mode": "nice"
+  },
+  {
+    "id": "137",
+    "category": "Philosophy",
+    "topic": "If you knew with certainty there was no afterlife, would you live your life any differently?",
+    "mode": "nice"
+  },
+  {
+    "id": "138",
+    "category": "Philosophy",
+    "topic": "Can suffering have intrinsic value, or is it always something to be minimized?",
+    "mode": "nice"
+  },
+  {
+    "id": "139",
+    "category": "Philosophy",
+    "topic": "Is the meaning of life the same for all conscious beings, or is it unique to each individual?",
+    "mode": "nice"
+  },
+  {
+    "id": "140",
+    "category": "Philosophy",
+    "topic": "If you could know the exact date and manner of your death, would you want to know?",
+    "mode": "nice"
+  },
+  {
+    "id": "141",
+    "category": "Philosophy",
+    "topic": "Is absolute truth possible, or is everything filtered through subjective perspective?",
+    "mode": "nice"
+  },
+  {
+    "id": "142",
+    "category": "Philosophy",
+    "topic": "If everyone believed something false, would it become true in any meaningful sense?",
+    "mode": "nice"
+  },
+  {
+    "id": "143",
+    "category": "Philosophy",
+    "topic": "Can we ever truly understand another person's experience, or are we always projecting our own?",
+    "mode": "nice"
+  },
+  {
+    "id": "144",
+    "category": "Philosophy",
+    "topic": "Is it possible to think without language?",
+    "mode": "nice"
+  },
+  {
+    "id": "145",
+    "category": "Philosophy",
+    "topic": "Does scientific knowledge bring us closer to truth, or just closer to more useful models?",
+    "mode": "nice"
+  },
+  {
+    "id": "146",
+    "category": "Philosophy",
+    "topic": "If a belief makes someone happier and harms no one, does it matter whether it is true?",
+    "mode": "nice"
+  },
+  {
+    "id": "147",
+    "category": "Philosophy",
+    "topic": "Is there a limit to what humans can understand, or can we theoretically comprehend everything?",
+    "mode": "nice"
+  },
+  {
+    "id": "148",
+    "category": "Philosophy",
+    "topic": "Do we see the world as it is, or as we are?",
+    "mode": "nice"
+  },
+  {
+    "id": "149",
+    "category": "Philosophy",
+    "topic": "Can paradoxes exist in reality, or do they only exist in language and logic?",
+    "mode": "nice"
+  },
+  {
+    "id": "150",
+    "category": "Philosophy",
+    "topic": "If you could know everything but lost the ability to wonder, would you take the trade?",
+    "mode": "nice"
+  },
+  {
+    "id": 520,
+    "topic": "An AI-generated deepfake video could exonerate an innocent person in prison. Is it ethical to use fabricated evidence to achieve a just outcome?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 521,
+    "topic": "You are a nurse who discovers a colleague has been making small errors due to exhaustion. Reporting them could end their career and leave the ward understaffed. What do you do?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 522,
+    "topic": "Your best friend's partner is cheating on them and you have proof. Your friend seems happy and their wedding is next month. Do you tell them?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 523,
+    "topic": "You find a wallet with a large amount of cash and an ID. The owner is a wealthy person who probably would not miss the money. You are struggling financially. What do you do?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 524,
+    "topic": "A coworker takes credit for your idea in a meeting. Correcting them publicly would embarrass them and create workplace tension. How do you handle it?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 525,
+    "topic": "You promised your child you would attend their school play, but your boss asks you to stay for an emergency meeting that could affect your entire team's jobs. What do you choose?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 526,
+    "topic": "You discover that a product you love and rely on is made using exploitative labor practices. Do you stop buying it even if no alternative exists?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 527,
+    "topic": "A friend asks you to write a reference letter for a job they are not qualified for. You want to support them, but you also value honesty. What do you write?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 528,
+    "topic": "You witness a minor shoplifting incident by someone who appears to be homeless and hungry. Do you report it?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 529,
+    "topic": "Your elderly parent needs daily care. You can provide it yourself but it would require quitting your job, or you can place them in a facility they do not want to go to. What do you do?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 530,
+    "topic": "You are a teacher and discover a student plagiarized an essay. They are a scholarship student and getting caught would end their academic career. How do you handle it?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 531,
+    "topic": "Is it ethical for a government to spy on its citizens if doing so prevents terrorist attacks?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 532,
+    "topic": "A city must choose between building affordable housing or preserving a historic neighborhood. Which should take priority?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 533,
+    "topic": "Should wealthy nations accept climate refugees even if it strains their own resources and social systems?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 534,
+    "topic": "A company discovers one of its products causes minor harm to a small percentage of users but major benefit to the majority. Should they recall it?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 535,
+    "topic": "Is it just to punish someone severely for a crime if harsh punishment demonstrably deters others from committing the same crime?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 536,
+    "topic": "Should a journalist publish classified information that reveals government wrongdoing if it could also endanger national security?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 537,
+    "topic": "A charity can save more lives by focusing on one specific cause, but this means ignoring other worthy causes. How should resources be allocated?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 538,
+    "topic": "Is it ethical to use the research findings of scientists who obtained their data through unethical experiments?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 539,
+    "topic": "A town must decide whether to allow a controversial industry that would create 500 jobs but increase pollution. The pollution would primarily affect the poorest neighborhood. What is the right decision?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 540,
+    "topic": "Should governments prioritize the wellbeing of current citizens or make sacrifices for future generations who cannot vote?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 541,
+    "topic": "You discover your employer has been slightly inflating revenue numbers in investor reports. It is not outright fraud, but it is misleading. Do you report it knowing it could collapse the company and cost hundreds of jobs?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 542,
+    "topic": "A talented colleague confides in you that they lied on their resume about having a degree. They have since proven themselves to be excellent at the job. Do you tell your manager?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 543,
+    "topic": "Your company asks you to lay off a team member. One person is a single parent who desperately needs the job but has lower performance. The other is single with savings but is a top performer. Who do you let go?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 544,
+    "topic": "You are a manager and learn that a popular employee is being accused of bullying by a junior staff member. No one else has witnessed it. How do you handle the situation fairly?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 545,
+    "topic": "Your company wants to sell a product you believe is overpriced and underdelivers. It is not illegal or dangerous, just not a good value. Do you push back or do your job?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 546,
+    "topic": "A coworker shares confidential salary information with you, and you discover you are being paid significantly less than peers doing the same work. How do you raise the issue without exposing your source?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 547,
+    "topic": "You are asked to write a glowing performance review for a mediocre employee because your boss wants to transfer them to another department instead of firing them. Do you comply?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 548,
+    "topic": "Your company wins a contract by underbidding competitors with a price you know is unsustainable. The plan is to raise prices after the client is locked in. Is this ethical?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 549,
+    "topic": "You notice a safety shortcut on the factory floor that saves time and money. No one has been hurt yet, but the risk is real. Reporting it could shut down production and cost your team their bonuses. What do you do?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 550,
+    "topic": "You can afford to buy an electric vehicle, but the lithium for its battery is mined under exploitative conditions in another country. Is buying it still the ethical choice?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 551,
+    "topic": "Should individuals in wealthy countries be morally required to reduce their standard of living to combat climate change, or is systemic change the only real solution?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 552,
+    "topic": "Is it ethical for wealthy nations to pay developing countries to preserve their forests instead of developing the land, effectively paying them to stay undeveloped?",
+    "category": "Philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": 553,
+    "topic": "A new dam would provide clean energy and water to millions but would flood an indigenous community's ancestral homeland. They refuse to relocate. What should happen?",
+    "category": "Philosophy",
+    "mode": "violence"
+  }
 ]
