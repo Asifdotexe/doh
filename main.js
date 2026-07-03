@@ -1,0 +1,167 @@
+import './style.css'
+import dohGif from './src/assets/doh.gif';
+
+const cachedQuestions = {};
+const seenQuestionIds = new Set();
+let lastQuestionId = null;
+
+const categoryFiles = {
+  "Science & Tech": "/data/science_tech.json",
+  "Philosophy": "/data/philosophy.json"
+};
+
+const topicCategoryEl = document.getElementById('topic-category');
+const topicTextEl = document.getElementById('topic-text');
+const categorySelect = document.getElementById('category-select');
+const btnNice = document.getElementById('btn-nice');
+const btnViolence = document.getElementById('btn-violence');
+const topicCard = document.querySelector('.topic-card');
+
+const modal = document.getElementById('submit-modal');
+const btnSubmitTopic = document.getElementById('btn-submit-topic');
+const btnCloseModal = document.getElementById('btn-close-modal');
+const formSubmit = document.getElementById('submit-form');
+
+async function getQuestions(category) {
+  if (category === "All") {
+    let allQ = [];
+    for (const cat of Object.keys(categoryFiles)) {
+      allQ = allQ.concat(await getQuestions(cat));
+    }
+    return allQ;
+  }
+
+  if (cachedQuestions[category]) {
+    return cachedQuestions[category];
+  }
+
+  try {
+    const res = await fetch(categoryFiles[category]);
+    if (!res.ok) throw new Error("Failed to fetch");
+    const data = await res.json();
+    cachedQuestions[category] = data;
+    return data;
+  } catch (err) {
+    console.error("Error loading category:", category, err);
+    return [];
+  }
+}
+
+async function spin(mode) {
+  const selectedCategory = categorySelect.value;
+  
+  const currentQuestions = await getQuestions(selectedCategory);
+  
+  const excludeSeen = document.getElementById('exclude-seen-checkbox').checked;
+  
+  let filtered = currentQuestions.filter(q => q.mode === mode);
+  
+  if (excludeSeen) {
+    filtered = filtered.filter(q => !seenQuestionIds.has(q.id));
+  } else if (filtered.length > 1) {
+    // Better randomisation: prevent immediate back-to-back repeats
+    filtered = filtered.filter(q => q.id !== lastQuestionId);
+  }
+
+  if (filtered.length === 0) {
+    const totalPossible = currentQuestions.filter(q => q.mode === mode).length;
+    if (excludeSeen && totalPossible > 0) {
+      topicTextEl.innerHTML = `
+        <div style="margin-bottom: 1.5rem;">
+          <img src="${dohGif}" alt="Do'h" style="max-width: 100%; max-height: 250px; border: var(--border-width) solid var(--text-color); box-shadow: 4px 4px 0px var(--text-color);">
+        </div>
+        Do'h! We ran out of questions. Uncheck 'EXCLUDE SEEN' to restart.<br>
+        <button id="btn-suggest-empty" class="btn btn-secondary" style="margin-top: 1.5rem;">SUGGEST A TOPIC</button>
+      `;
+      topicCategoryEl.textContent = "EMPTY";
+      
+      document.getElementById('btn-suggest-empty').addEventListener('click', () => {
+        modal.showModal();
+      });
+      return;
+    }
+    topicTextEl.textContent = "No arguments found for this combination.";
+    topicCategoryEl.textContent = "EMPTY";
+    return;
+  }
+  
+  // Zippy glitch effect (Neo-brutalism interaction)
+  topicCard.classList.add('glitch');
+  setTimeout(() => topicCard.classList.remove('glitch'), 150);
+
+  const randomIndex = Math.floor(Math.random() * filtered.length);
+  const selected = filtered[randomIndex];
+  
+  seenQuestionIds.add(selected.id);
+  lastQuestionId = selected.id;
+
+  // Quick text scramble effect
+  let scrambleCount = 0;
+  const scrambleInterval = setInterval(() => {
+    topicTextEl.textContent = generateScramble(selected.topic.length);
+    scrambleCount++;
+    if (scrambleCount > 3) {
+      clearInterval(scrambleInterval);
+      topicTextEl.textContent = selected.topic;
+      topicCategoryEl.textContent = selected.category;
+    }
+  }, 30);
+}
+
+function generateScramble(length) {
+  const chars = '!<>-_\\/[]{}—=+*^?#_';
+  let str = '';
+  // Limit to avoid overflow during scramble
+  for (let i=0; i < Math.min(length, 30); i++) {
+    str += chars[Math.floor(Math.random() * chars.length)];
+  }
+  return str + '...';
+}
+
+btnNice.addEventListener('click', () => spin('nice'));
+btnViolence.addEventListener('click', () => spin('violence'));
+
+btnSubmitTopic.addEventListener('click', () => {
+  modal.showModal();
+});
+
+btnCloseModal.addEventListener('click', () => {
+  modal.close();
+});
+
+formSubmit.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  
+  const category = document.getElementById('new-category').value;
+  const topic = document.getElementById('new-topic').value;
+  
+  const submitBtn = formSubmit.querySelector('button[type="submit"]');
+  const originalText = submitBtn.textContent;
+  submitBtn.textContent = "Submitting...";
+  submitBtn.disabled = true;
+
+  try {
+    // This expects a serverless function endpoint to handle the GitHub issue creation securely.
+    // For now, we simulate a successful API call until the backend is wired up.
+    // const res = await fetch('/api/submit', {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/json' },
+    //   body: JSON.stringify({ category, topic })
+    // });
+    // if (!res.ok) throw new Error("Failed to submit");
+    
+    await new Promise(r => setTimeout(r, 1000)); // Simulate network latency
+
+    alert("Topic submitted for review! A pull request will be created shortly.");
+    formSubmit.reset();
+    modal.close();
+  } catch (err) {
+    alert("Failed to submit topic. Please try again.");
+    console.error(err);
+  } finally {
+    submitBtn.textContent = originalText;
+    submitBtn.disabled = false;
+  }
+});
+
+

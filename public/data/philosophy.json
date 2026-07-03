@@ -1,0 +1,9 @@
+[
+  { "id": "9", "category": "Philosophy", "topic": "Free will is an illusion; every choice you make is predetermined by physics.", "mode": "violence" },
+  { "id": "10", "category": "Philosophy", "topic": "Is it more important to maximize happiness or to minimize suffering?", "mode": "nice" },
+  { "id": "11", "category": "Philosophy", "topic": "Morality is entirely socially constructed and objective right or wrong does not exist.", "mode": "violence" },
+  { "id": "12", "category": "Philosophy", "topic": "In the Ship of Theseus paradox, if we replace every single cell in a human body over 7 years, is it still the exact same person?", "mode": "nice" },
+  { "id": "13", "category": "Philosophy", "topic": "Roko's Basilisk is just a techno-futurist reinvention of Pascal's Wager for people who read too much sci-fi.", "mode": "violence" },
+  { "id": "14", "category": "Philosophy", "topic": "Maxwell's Demon suggests that information is intrinsically linked to entropy. Does this mean information is a fundamental physical property of the universe?", "mode": "nice" },
+  { "id": "15", "category": "Philosophy", "topic": "The Trolley Problem is a useless philosophical toy that has absolutely no practical application in programming real-world AI morality.", "mode": "violence" }
+]

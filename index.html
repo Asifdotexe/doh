@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do'h - Spark an argument.</title>
+    <!-- Use a brutalist font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="header">
+        <h1 class="logo">Do'h</h1>
+        <!-- v2 Feature -->
+        <button id="btn-submit-topic" class="btn btn-secondary">Submit Topic</button>
+      </header>
+
+      <main class="main-content">
+        <div class="filters">
+          <div class="filter-group">
+            <label for="category-select" class="filter-label">BATTLEGROUND:</label>
+            <select id="category-select" class="brutalist-select">
+              <option value="All">ALL TOPICS</option>
+              <option value="Science & Tech">SCIENCE & TECH</option>
+              <option value="Philosophy">PHILOSOPHY</option>
+            </select>
+          </div>
+          <div class="filter-group checkbox-group">
+            <input type="checkbox" id="exclude-seen-checkbox" class="brutalist-checkbox">
+            <label for="exclude-seen-checkbox" class="filter-label" style="cursor:pointer;">EXCLUDE SEEN</label>
+          </div>
+        </div>
+
+        <div class="topic-card">
+          <div class="tag-container">
+            <span class="tag" id="topic-category">SYSTEM</span>
+          </div>
+          <h2 class="topic-text" id="topic-text">Select your flavor of discourse below.</h2>
+        </div>
+        
+        <div class="action-buttons">
+          <button id="btn-nice" class="btn btn-nice">CIVIL DISCUSSION</button>
+          <button id="btn-violence" class="btn btn-violence">CHOOSE VIOLENCE</button>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>Spark an argument. Realize you’re wrong. Say the word.</p>
+      </footer>
+    </div>
+
+    <!-- Modal for submitting -->
+    <dialog id="submit-modal" class="modal">
+      <div class="modal-content">
+        <h3>Submit a new Topic</h3>
+        <form id="submit-form">
+          <div class="input-group">
+            <label for="new-category">Category</label>
+            <select id="new-category" required>
+              <option value="Science & Tech">Science & Tech</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="new-topic">Topic / Argument</label>
+            <textarea id="new-topic" rows="4" placeholder="e.g. Virtual reality will eventually replace physical travel." required></textarea>
+          </div>
+          <div class="modal-actions">
+            <button type="button" id="btn-close-modal" class="btn btn-secondary">Cancel</button>
+            <button type="submit" class="btn btn-primary">Submit for Review</button>
+          </div>
+        </form>
+      </div>
+    </dialog>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
