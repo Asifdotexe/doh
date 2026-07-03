@@ -141,22 +141,35 @@ formSubmit.addEventListener('submit', async (e) => {
   submitBtn.disabled = true;
 
   try {
-    // This expects a serverless function endpoint to handle the GitHub issue creation securely.
-    // For now, we simulate a successful API call until the backend is wired up.
-    // const res = await fetch('/api/submit', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify({ category, topic })
-    // });
-    // if (!res.ok) throw new Error("Failed to submit");
+    // STEP 1: Replace this with your actual Web3Forms access key
+    const web3FormsAccessKey = 'YOUR_ACCESS_KEY_HERE';
     
-    await new Promise(r => setTimeout(r, 1000)); // Simulate network latency
+    if (web3FormsAccessKey === 'YOUR_ACCESS_KEY_HERE') {
+      alert("DEVELOPER NOTE: You need to put your Web3Forms access key in main.js!");
+      return;
+    }
 
-    alert("Topic submitted for review! A pull request will be created shortly.");
+    const res = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        access_key: web3FormsAccessKey,
+        subject: `New Do'h Suggestion: [${category}]`,
+        category: category,
+        topic: topic
+      })
+    });
+    
+    if (!res.ok) throw new Error("Failed to submit to Web3Forms");
+
+    alert("Topic submitted for review! Thanks for contributing.");
     formSubmit.reset();
     modal.close();
   } catch (err) {
-    alert("Failed to submit topic. Please try again.");
+    alert("Failed to submit topic. Please try again or check the console.");
     console.error(err);
   } finally {
     submitBtn.textContent = originalText;
