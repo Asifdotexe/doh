@@ -6,8 +6,8 @@ const seenQuestionIds = new Set();
 let lastQuestionId = null;
 
 const categoryFiles = {
-  "Science & Tech": "/data/science_tech.json",
-  Philosophy: "/data/philosophy.json",
+  "Science & Tech": `${import.meta.env.BASE_URL}data/science_tech.json`,
+  Philosophy: `${import.meta.env.BASE_URL}data/philosophy.json`,
 };
 
 const topicCategoryEl = document.getElementById("topic-category");

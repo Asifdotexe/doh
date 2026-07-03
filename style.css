@@ -271,3 +271,14 @@ body {
   justify-content: flex-end;
   gap: 1rem;
 }
+
+.callout {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  border: 2px solid var(--text-color);
+  margin-top: 0.25rem;
+}
