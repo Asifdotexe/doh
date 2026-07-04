@@ -116,6 +116,46 @@ body {
   background-color: var(--primary-color);
 }
 
+.watermark {
+  display: none;
+  margin-top: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  text-align: right;
+  opacity: 0.8;
+}
+
+.share-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+  margin-top: -1rem; /* Pull it slightly closer to the card */
+}
+
+#btn-copy-image {
+  background: #FFFFFF;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 var(--text-color);
+  transition: all 0.1s;
+}
+
+#btn-copy-image:hover {
+  background-color: var(--primary-color);
+}
+
+#btn-copy-image:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 var(--text-color);
+}
+
 .main-content {
   flex-grow: 1;
   display: flex;

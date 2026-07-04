@@ -1,5 +1,6 @@
 import "./style.css";
 import dohGif from "./src/assets/doh.gif";
+import html2canvas from "html2canvas";
 
 const cachedQuestions = {};
 const seenQuestionIds = new Set();
@@ -21,6 +22,7 @@ const modal = document.getElementById("submit-modal");
 const btnSubmitTopic = document.getElementById("btn-submit-topic");
 const btnCloseModal = document.getElementById("btn-close-modal");
 const formSubmit = document.getElementById("submit-form");
+const btnCopyImage = document.getElementById("btn-copy-image");
 
 async function getQuestions(category) {
 
@@ -183,5 +185,47 @@ formSubmit.addEventListener("submit", async (e) => {
   } finally {
     submitBtn.textContent = originalText;
     submitBtn.disabled = false;
+  }
+});
+
+btnCopyImage.addEventListener("click", async () => {
+  if (btnCopyImage.disabled) return;
+
+  const origText = btnCopyImage.textContent;
+  btnCopyImage.disabled = true;
+  btnCopyImage.textContent = "SNAPPING...";
+
+  try {
+    // Add capturing class to adjust UI for the image
+    topicCard.classList.add("capturing");
+    
+    // Pass a Promise to ClipboardItem to handle Safari strict requirements
+    const blobPromise = html2canvas(topicCard, { 
+      backgroundColor: null,
+      scale: 2 // High-res capture
+    }).then(canvas => {
+      topicCard.classList.remove("capturing");
+      return new Promise(resolve => canvas.toBlob(resolve, "image/png"));
+    }).catch(err => {
+      topicCard.classList.remove("capturing");
+      throw err;
+    });
+
+    const item = new ClipboardItem({ "image/png": blobPromise });
+    await navigator.clipboard.write([item]);
+
+    btnCopyImage.textContent = "✔ COPIED!";
+    setTimeout(() => {
+      btnCopyImage.textContent = origText;
+      btnCopyImage.disabled = false;
+    }, 2000);
+  } catch (err) {
+    console.error("Failed to copy image", err);
+    btnCopyImage.textContent = "❌ ERROR";
+    topicCard.classList.remove("capturing"); // Just in case
+    setTimeout(() => {
+      btnCopyImage.textContent = origText;
+      btnCopyImage.disabled = false;
+    }, 2000);
   }
 });
