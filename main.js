@@ -189,10 +189,13 @@ formSubmit.addEventListener("submit", async (e) => {
 });
 
 btnCopyImage.addEventListener("click", async () => {
+  if (btnCopyImage.disabled) return;
+
+  const origText = btnCopyImage.textContent;
+  btnCopyImage.disabled = true;
+  btnCopyImage.textContent = "SNAPPING...";
+
   try {
-    const origText = btnCopyImage.textContent;
-    btnCopyImage.textContent = "SNAPPING...";
-    
     // Add capturing class to adjust UI for the image
     topicCard.classList.add("capturing");
     
@@ -212,11 +215,17 @@ btnCopyImage.addEventListener("click", async () => {
     await navigator.clipboard.write([item]);
 
     btnCopyImage.textContent = "✔ COPIED!";
-    setTimeout(() => { btnCopyImage.textContent = origText; }, 2000);
+    setTimeout(() => {
+      btnCopyImage.textContent = origText;
+      btnCopyImage.disabled = false;
+    }, 2000);
   } catch (err) {
     console.error("Failed to copy image", err);
     btnCopyImage.textContent = "❌ ERROR";
     topicCard.classList.remove("capturing"); // Just in case
-    setTimeout(() => { btnCopyImage.textContent = "📸 COPY AS IMAGE"; }, 2000);
+    setTimeout(() => {
+      btnCopyImage.textContent = origText;
+      btnCopyImage.disabled = false;
+    }, 2000);
   }
 });
