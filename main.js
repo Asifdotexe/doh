@@ -150,12 +150,11 @@ formSubmit.addEventListener("submit", async (e) => {
   submitBtn.disabled = true;
 
   try {
-    // STEP 1: Replace this with your actual Web3Forms access key
-    const web3FormsAccessKey = "WEB3_FORM_KEY";
+    const web3FormsAccessKey = import.meta.env.VITE_WEB3FORMS_KEY;
 
-    if (web3FormsAccessKey === "WEB3_FORM_KEY") {
+    if (!web3FormsAccessKey) {
       alert(
-        "DEVELOPER NOTE: You need to put your Web3Forms access key in main.js!",
+        "Missing Web3Forms access key! Please set VITE_WEB3FORMS_KEY.",
       );
       return;
     }
