@@ -129,6 +129,7 @@ body {
 .watermark .logo {
   color: var(--secondary-color);
   text-shadow: 2px 2px 0px var(--text-color);
+  margin: 0;
 }
 
 .share-actions {
