@@ -276,45 +276,105 @@
     "mode": "nice"
   },
   {
-    "id": 500,
+    "id": "500",
     "topic": "A self-driving car must choose between hitting an elderly pedestrian or swerving to endanger its young passenger. How should it be programmed, and who decides?",
     "category": "Technology",
     "mode": "violence"
   },
   {
-    "id": 501,
+    "id": "501",
     "topic": "An AI can predict with 95% accuracy which employees will quit within six months. Should employers use this data, and should employees be told they are being analyzed?",
     "category": "Technology",
     "mode": "violence"
   },
   {
-    "id": 502,
+    "id": "502",
     "topic": "A social media algorithm discovers it can reduce teen depression by 30% but only by heavily censoring content. Should the platform implement it without telling users?",
     "category": "Technology",
     "mode": "violence"
   },
   {
-    "id": 503,
+    "id": "503",
     "topic": "You discover your company's AI hiring tool consistently rates candidates from certain zip codes lower. Your boss says it is just reflecting real performance data. What do you do?",
     "category": "Technology",
     "mode": "violence"
   },
   {
-    "id": 504,
+    "id": "504",
     "topic": "Your company develops an AI that could replace 10,000 jobs but save the company from bankruptcy. Do you deploy it?",
     "category": "Technology",
     "mode": "violence"
   },
   {
-    "id": 505,
+    "id": "505",
     "topic": "A brain-computer interface could cure your child's severe disability but requires collecting and sharing their neural data with a tech company. Do you consent?",
     "category": "Technology",
     "mode": "violence"
   },
   {
-    "id": 506,
+    "id": "506",
     "topic": "A self-driving car must choose between hitting an elderly pedestrian or swerving into a wall, likely killing the passenger. How should it be programmed, and who is responsible for the outcome?",
     "category": "Technology",
     "mode": "violence"
+  },
+  {
+    "id": "586",
+    "category": "Technology",
+    "topic": "Advanced AI development should be paused until safety standards are agreed",
+    "mode": "violence"
+  },
+  {
+    "id": "587",
+    "category": "Technology",
+    "topic": "AI systems should be legally required to disclose when they are interacting with a person",
+    "mode": "nice"
+  },
+  {
+    "id": "588",
+    "category": "Technology",
+    "topic": "Autonomous weapons that select targets without human approval should be banned",
+    "mode": "nice"
+  },
+  {
+    "id": "589",
+    "category": "Technology",
+    "topic": "AI-generated scientific research should be eligible for publication and patents",
+    "mode": "violence"
+  },
+  {
+    "id": "590",
+    "category": "Technology",
+    "topic": "Facial recognition technology should be banned for government use",
+    "mode": "violence"
+  },
+  {
+    "id": "591",
+    "category": "Technology",
+    "topic": "AI should be permitted to make medical diagnoses without physician sign-off",
+    "mode": "violence"
+  },
+  {
+    "id": "592",
+    "category": "Technology",
+    "topic": "Training AI on copyrighted data without permission should be illegal",
+    "mode": "violence"
+  },
+  {
+    "id": "593",
+    "category": "Technology",
+    "topic": "A sufficiently advanced AI should be granted legal personhood",
+    "mode": "violence"
+  },
+  {
+    "id": "594",
+    "category": "Technology",
+    "topic": "Predictive policing algorithms should be prohibited",
+    "mode": "nice"
+  },
+  {
+    "id": "595",
+    "category": "Technology",
+    "topic": "Brain-computer interfaces should be regulated as strictly as prescription drugs",
+    "mode": "nice"
   }
 ]
