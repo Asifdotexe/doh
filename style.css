@@ -119,12 +119,16 @@ body {
 .watermark {
   display: none;
   margin-top: 2rem;
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: 700;
-  font-size: 0.9rem;
-  color: var(--text-color);
   text-align: right;
-  opacity: 0.8;
+}
+
+.capturing .watermark {
+  display: block;
+}
+
+.watermark .logo {
+  color: var(--secondary-color);
+  text-shadow: 2px 2px 0px var(--text-color);
 }
 
 .share-actions {
