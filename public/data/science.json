@@ -508,5 +508,215 @@
     "topic": "Should companies be allowed to offset their carbon emissions by buying credits, or does this just give wealthy polluters permission to keep polluting?",
     "category": "Science",
     "mode": "violence"
+  },
+  {
+    "id": "554",
+    "category": "Science",
+    "topic": "Gene editing of human embryos should be permitted to prevent heritable disease",
+    "mode": "violence"
+  },
+  {
+    "id": "555",
+    "category": "Science",
+    "topic": "Gene editing for enhancement (height, intelligence) should be permanently banned",
+    "mode": "violence"
+  },
+  {
+    "id": "556",
+    "category": "Science",
+    "topic": "Parents should be allowed to select embryos by genetic profile via IVF",
+    "mode": "violence"
+  },
+  {
+    "id": "557",
+    "category": "Science",
+    "topic": "Cloning of human beings should be prohibited under international law",
+    "mode": "nice"
+  },
+  {
+    "id": "558",
+    "category": "Science",
+    "topic": "Gene drives should be used to eradicate malaria-carrying mosquito populations",
+    "mode": "violence"
+  },
+  {
+    "id": "559",
+    "category": "Science",
+    "topic": "De-extinction of species like the woolly mammoth is a worthwhile use of resources",
+    "mode": "nice"
+  },
+  {
+    "id": "560",
+    "category": "Science",
+    "topic": "Genetically modified crops should be labeled by law",
+    "mode": "nice"
+  },
+  {
+    "id": "561",
+    "category": "Science",
+    "topic": "Synthetic biology research should require a global licensing regime",
+    "mode": "nice"
+  },
+  {
+    "id": "562",
+    "category": "Science",
+    "topic": "A person's genome is personal property they should be able to sell",
+    "mode": "violence"
+  },
+  {
+    "id": "563",
+    "category": "Science",
+    "topic": "CRISPR research on human germ-line cells should be publicly funded",
+    "mode": "violence"
+  },
+  {
+    "id": "564",
+    "category": "Science",
+    "topic": "Direct-to-consumer DNA testing services should be banned",
+    "mode": "nice"
+  },
+  {
+    "id": "565",
+    "category": "Science",
+    "topic": "Designer-baby technology, once safe, should be available to anyone who can pay",
+    "mode": "violence"
+  },
+  {
+    "id": "566",
+    "category": "Science",
+    "topic": "Government funding for crewed Mars missions is justified given problems on Earth",
+    "mode": "nice"
+  },
+  {
+    "id": "567",
+    "category": "Science",
+    "topic": "Space exploration should be led by private companies, not national agencies",
+    "mode": "violence"
+  },
+  {
+    "id": "568",
+    "category": "Science",
+    "topic": "Asteroid mining rights should be ownable by private firms",
+    "mode": "violence"
+  },
+  {
+    "id": "569",
+    "category": "Science",
+    "topic": "A permanent human settlement on the Moon should be an international priority",
+    "mode": "nice"
+  },
+  {
+    "id": "570",
+    "category": "Science",
+    "topic": "Sending humans to space is no longer worth the cost when robots can do the science",
+    "mode": "violence"
+  },
+  {
+    "id": "571",
+    "category": "Science",
+    "topic": "Earth should broadcast its location to potential extraterrestrial civilizations",
+    "mode": "violence"
+  },
+  {
+    "id": "572",
+    "category": "Science",
+    "topic": "Planetary protection rules that limit Mars exploration are too strict",
+    "mode": "violence"
+  },
+  {
+    "id": "573",
+    "category": "Science",
+    "topic": "Space should be legally designated a global commons closed to military use",
+    "mode": "nice"
+  },
+  {
+    "id": "574",
+    "category": "Science",
+    "topic": "Billionaire-funded space tourism is an irresponsible use of resources",
+    "mode": "violence"
+  },
+  {
+    "id": "575",
+    "category": "Science",
+    "topic": "Humanity has a moral obligation to become a multi-planet species",
+    "mode": "nice"
+  },
+  {
+    "id": "576",
+    "category": "Science",
+    "topic": "Nuclear power should be central to decarbonization efforts",
+    "mode": "violence"
+  },
+  {
+    "id": "577",
+    "category": "Science",
+    "topic": "Governments should fund large-scale solar geoengineering research",
+    "mode": "violence"
+  },
+  {
+    "id": "578",
+    "category": "Science",
+    "topic": "Carbon taxes are a more effective climate policy than cap-and-trade",
+    "mode": "nice"
+  },
+  {
+    "id": "579",
+    "category": "Science",
+    "topic": "Wealthy nations owe climate reparations to developing countries",
+    "mode": "violence"
+  },
+  {
+    "id": "580",
+    "category": "Science",
+    "topic": "Individual lifestyle change is a meaningful climate strategy, not a distraction",
+    "mode": "nice"
+  },
+  {
+    "id": "581",
+    "category": "Science",
+    "topic": "Carbon capture technology is a dangerous excuse to delay emissions cuts",
+    "mode": "violence"
+  },
+  {
+    "id": "582",
+    "category": "Science",
+    "topic": "A legal framework should grant rights to rivers, forests, and ecosystems",
+    "mode": "nice"
+  },
+  {
+    "id": "583",
+    "category": "Science",
+    "topic": "Lab-grown meat should replace conventional livestock farming",
+    "mode": "violence"
+  },
+  {
+    "id": "584",
+    "category": "Science",
+    "topic": "Degrowth is a more honest climate strategy than green growth",
+    "mode": "violence"
+  },
+  {
+    "id": "585",
+    "category": "Science",
+    "topic": "Banning single-use plastics meaningfully reduces environmental harm",
+    "mode": "nice"
+  },
+  {
+    "id": "606",
+    "category": "Science",
+    "topic": "The search for a theory of everything is a worthwhile use of physics funding",
+    "mode": "nice"
+  },
+  {
+    "id": "607",
+    "category": "Science",
+    "topic": "Building a larger particle collider is justified given the cost",
+    "mode": "nice"
+  },
+  {
+    "id": "609",
+    "category": "Science",
+    "topic": "Long-term storage of nuclear waste is a solvable engineering problem",
+    "mode": "nice"
   }
 ]

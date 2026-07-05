@@ -316,5 +316,65 @@
     "topic": "A self-driving car must choose between hitting an elderly pedestrian or swerving into a wall, likely killing the passenger. How should it be programmed, and who is responsible for the outcome?",
     "category": "Technology",
     "mode": "violence"
+  },
+  {
+    "id": "586",
+    "category": "Technology",
+    "topic": "Advanced AI development should be paused until safety standards are agreed",
+    "mode": "violence"
+  },
+  {
+    "id": "587",
+    "category": "Technology",
+    "topic": "AI systems should be legally required to disclose when they are interacting with a person",
+    "mode": "nice"
+  },
+  {
+    "id": "588",
+    "category": "Technology",
+    "topic": "Autonomous weapons that select targets without human approval should be banned",
+    "mode": "nice"
+  },
+  {
+    "id": "589",
+    "category": "Technology",
+    "topic": "AI-generated scientific research should be eligible for publication and patents",
+    "mode": "violence"
+  },
+  {
+    "id": "590",
+    "category": "Technology",
+    "topic": "Facial recognition technology should be banned for government use",
+    "mode": "violence"
+  },
+  {
+    "id": "591",
+    "category": "Technology",
+    "topic": "AI should be permitted to make medical diagnoses without physician sign-off",
+    "mode": "violence"
+  },
+  {
+    "id": "592",
+    "category": "Technology",
+    "topic": "Training AI on copyrighted data without permission should be illegal",
+    "mode": "violence"
+  },
+  {
+    "id": "593",
+    "category": "Technology",
+    "topic": "A sufficiently advanced AI should be granted legal personhood",
+    "mode": "violence"
+  },
+  {
+    "id": "594",
+    "category": "Technology",
+    "topic": "Predictive policing algorithms should be prohibited",
+    "mode": "nice"
+  },
+  {
+    "id": "595",
+    "category": "Technology",
+    "topic": "Brain-computer interfaces should be regulated as strictly as prescription drugs",
+    "mode": "nice"
   }
 ]

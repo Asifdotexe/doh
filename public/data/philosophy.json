@@ -544,5 +544,83 @@
     "topic": "A new dam would provide clean energy and water to millions but would flood an indigenous community's ancestral homeland. They refuse to relocate. What should happen?",
     "category": "Philosophy",
     "mode": "violence"
+  },
+  {
+    "id": "596",
+    "category": "Philosophy",
+    "topic": "Animal testing should be banned where non-animal alternatives exist",
+    "mode": "nice"
+  },
+  {
+    "id": "597",
+    "category": "Philosophy",
+    "topic": "Publicly funded research must be published in free, open-access journals",
+    "mode": "nice"
+  },
+  {
+    "id": "598",
+    "category": "Philosophy",
+    "topic": "Scientists have a duty to advocate publicly on policy in their field",
+    "mode": "nice"
+  },
+  {
+    "id": "599",
+    "category": "Philosophy",
+    "topic": "Gain-of-function research on dangerous pathogens should be globally prohibited",
+    "mode": "violence"
+  },
+  {
+    "id": "600",
+    "category": "Philosophy",
+    "topic": "Peer review should be fully anonymous on both sides",
+    "mode": "nice"
+  },
+  {
+    "id": "601",
+    "category": "Philosophy",
+    "topic": "Failed experiments and null results should be required publication",
+    "mode": "nice"
+  },
+  {
+    "id": "602",
+    "category": "Philosophy",
+    "topic": "Research funded by industry should be barred from regulatory decision-making",
+    "mode": "violence"
+  },
+  {
+    "id": "603",
+    "category": "Philosophy",
+    "topic": "A scientist's misconduct should permanently end their career",
+    "mode": "violence"
+  },
+  {
+    "id": "604",
+    "category": "Philosophy",
+    "topic": "Human challenge trials (deliberately infecting volunteers) are ethically acceptable",
+    "mode": "violence"
+  },
+  {
+    "id": "605",
+    "category": "Philosophy",
+    "topic": "Dual-use research with weaponization potential should be classified by default",
+    "mode": "violence"
+  },
+  {
+    "id": "608",
+    "category": "Philosophy",
+    "topic": "The multiverse hypothesis is science rather than philosophy",
+    "mode": "nice"
+  },
+  {
+    "id": "610",
+    "category": "Philosophy",
+    "topic": "The simulation hypothesis is a meaningful scientific question",
+    "mode": "violence"
+  },
+  {
+    "id": "611",
+    "category": "Philosophy",
+    "topic": "Science can, in principle, explain consciousness fully",
+    "mode": "violence"
   }
 ]
