@@ -342,205 +342,205 @@
     "mode": "nice"
   },
   {
-    "id": 520,
+    "id": "520",
     "topic": "An AI-generated deepfake video could exonerate an innocent person in prison. Is it ethical to use fabricated evidence to achieve a just outcome?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 521,
+    "id": "521",
     "topic": "You are a nurse who discovers a colleague has been making small errors due to exhaustion. Reporting them could end their career and leave the ward understaffed. What do you do?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 522,
+    "id": "522",
     "topic": "Your best friend's partner is cheating on them and you have proof. Your friend seems happy and their wedding is next month. Do you tell them?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 523,
+    "id": "523",
     "topic": "You find a wallet with a large amount of cash and an ID. The owner is a wealthy person who probably would not miss the money. You are struggling financially. What do you do?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 524,
+    "id": "524",
     "topic": "A coworker takes credit for your idea in a meeting. Correcting them publicly would embarrass them and create workplace tension. How do you handle it?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 525,
+    "id": "525",
     "topic": "You promised your child you would attend their school play, but your boss asks you to stay for an emergency meeting that could affect your entire team's jobs. What do you choose?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 526,
+    "id": "526",
     "topic": "You discover that a product you love and rely on is made using exploitative labor practices. Do you stop buying it even if no alternative exists?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 527,
+    "id": "527",
     "topic": "A friend asks you to write a reference letter for a job they are not qualified for. You want to support them, but you also value honesty. What do you write?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 528,
+    "id": "528",
     "topic": "You witness a minor shoplifting incident by someone who appears to be homeless and hungry. Do you report it?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 529,
+    "id": "529",
     "topic": "Your elderly parent needs daily care. You can provide it yourself but it would require quitting your job, or you can place them in a facility they do not want to go to. What do you do?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 530,
+    "id": "530",
     "topic": "You are a teacher and discover a student plagiarized an essay. They are a scholarship student and getting caught would end their academic career. How do you handle it?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 531,
+    "id": "531",
     "topic": "Is it ethical for a government to spy on its citizens if doing so prevents terrorist attacks?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 532,
+    "id": "532",
     "topic": "A city must choose between building affordable housing or preserving a historic neighborhood. Which should take priority?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 533,
+    "id": "533",
     "topic": "Should wealthy nations accept climate refugees even if it strains their own resources and social systems?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 534,
+    "id": "534",
     "topic": "A company discovers one of its products causes minor harm to a small percentage of users but major benefit to the majority. Should they recall it?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 535,
+    "id": "535",
     "topic": "Is it just to punish someone severely for a crime if harsh punishment demonstrably deters others from committing the same crime?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 536,
+    "id": "536",
     "topic": "Should a journalist publish classified information that reveals government wrongdoing if it could also endanger national security?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 537,
+    "id": "537",
     "topic": "A charity can save more lives by focusing on one specific cause, but this means ignoring other worthy causes. How should resources be allocated?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 538,
+    "id": "538",
     "topic": "Is it ethical to use the research findings of scientists who obtained their data through unethical experiments?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 539,
+    "id": "539",
     "topic": "A town must decide whether to allow a controversial industry that would create 500 jobs but increase pollution. The pollution would primarily affect the poorest neighborhood. What is the right decision?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 540,
+    "id": "540",
     "topic": "Should governments prioritize the wellbeing of current citizens or make sacrifices for future generations who cannot vote?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 541,
+    "id": "541",
     "topic": "You discover your employer has been slightly inflating revenue numbers in investor reports. It is not outright fraud, but it is misleading. Do you report it knowing it could collapse the company and cost hundreds of jobs?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 542,
+    "id": "542",
     "topic": "A talented colleague confides in you that they lied on their resume about having a degree. They have since proven themselves to be excellent at the job. Do you tell your manager?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 543,
+    "id": "543",
     "topic": "Your company asks you to lay off a team member. One person is a single parent who desperately needs the job but has lower performance. The other is single with savings but is a top performer. Who do you let go?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 544,
+    "id": "544",
     "topic": "You are a manager and learn that a popular employee is being accused of bullying by a junior staff member. No one else has witnessed it. How do you handle the situation fairly?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 545,
+    "id": "545",
     "topic": "Your company wants to sell a product you believe is overpriced and underdelivers. It is not illegal or dangerous, just not a good value. Do you push back or do your job?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 546,
+    "id": "546",
     "topic": "A coworker shares confidential salary information with you, and you discover you are being paid significantly less than peers doing the same work. How do you raise the issue without exposing your source?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 547,
+    "id": "547",
     "topic": "You are asked to write a glowing performance review for a mediocre employee because your boss wants to transfer them to another department instead of firing them. Do you comply?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 548,
+    "id": "548",
     "topic": "Your company wins a contract by underbidding competitors with a price you know is unsustainable. The plan is to raise prices after the client is locked in. Is this ethical?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 549,
+    "id": "549",
     "topic": "You notice a safety shortcut on the factory floor that saves time and money. No one has been hurt yet, but the risk is real. Reporting it could shut down production and cost your team their bonuses. What do you do?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 550,
+    "id": "550",
     "topic": "You can afford to buy an electric vehicle, but the lithium for its battery is mined under exploitative conditions in another country. Is buying it still the ethical choice?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 551,
+    "id": "551",
     "topic": "Should individuals in wealthy countries be morally required to reduce their standard of living to combat climate change, or is systemic change the only real solution?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 552,
+    "id": "552",
     "topic": "Is it ethical for wealthy nations to pay developing countries to preserve their forests instead of developing the land, effectively paying them to stay undeveloped?",
     "category": "Philosophy",
     "mode": "violence"
   },
   {
-    "id": 553,
+    "id": "553",
     "topic": "A new dam would provide clean energy and water to millions but would flood an indigenous community's ancestral homeland. They refuse to relocate. What should happen?",
     "category": "Philosophy",
     "mode": "violence"

@@ -432,79 +432,79 @@
     "mode": "nice"
   },
   {
-    "id": 507,
+    "id": "507",
     "topic": "A hospital AI can identify patients likely to die within six months with 90% accuracy. Should this information be shared with patients who have not asked?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 508,
+    "id": "508",
     "topic": "There are five patients who will die without organ transplants. A healthy patient comes in for a checkup. Would it ever be ethical to sacrifice one to save five?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 509,
+    "id": "509",
     "topic": "A doctor can save a patient's life with an experimental treatment that has not been approved. The patient is unconscious and cannot consent. Should the doctor proceed?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 510,
+    "id": "510",
     "topic": "Two patients need a liver transplant, but only one organ is available. One patient is a 30-year-old parent; the other is a 60-year-old scientist close to a major breakthrough. How do you decide?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 511,
+    "id": "511",
     "topic": "A pharmaceutical company develops a life-saving drug but prices it so high that only wealthy patients can afford it. Is profit-driven pricing ethical for essential medicines?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 512,
+    "id": "512",
     "topic": "Your family member has a terminal illness and asks you to help them end their life peacefully. It is illegal in your jurisdiction. What do you do?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 513,
+    "id": "513",
     "topic": "A genetic test reveals your unborn child will have a condition that causes severe suffering but is not fatal. There is no treatment. What is the ethical choice?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 514,
+    "id": "514",
     "topic": "A vaccine has a 1 in 100,000 chance of serious side effects but would prevent a disease that kills 1 in 1,000. Should it be mandatory?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 515,
+    "id": "515",
     "topic": "Is it ethical to have children knowing the environmental impact each person creates and the world they may inherit?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 516,
+    "id": "516",
     "topic": "A developing country discovers a massive oil reserve that could lift millions out of poverty but would significantly increase global carbon emissions. Should they extract it?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 517,
+    "id": "517",
     "topic": "A pharmaceutical company wants to test a new malaria vaccine in a developing country where the disease is common. The trials carry risk, but success could save millions. Is this ethical if the country lacks the regulatory infrastructure to oversee the trials?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 518,
+    "id": "518",
     "topic": "An endangered species is destroying crops that a local community depends on for survival. The community wants to cull the animals. Conservationists object. Who is right?",
     "category": "Science",
     "mode": "violence"
   },
   {
-    "id": 519,
+    "id": "519",
     "topic": "Should companies be allowed to offset their carbon emissions by buying credits, or does this just give wealthy polluters permission to keep polluting?",
     "category": "Science",
     "mode": "violence"
