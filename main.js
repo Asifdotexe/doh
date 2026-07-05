@@ -104,27 +104,50 @@ async function spin(mode) {
   seenQuestionIds.add(selected.id);
   lastQuestionId = selected.id;
 
-  // Quick text scramble effect
-  let scrambleCount = 0;
-  const scrambleInterval = setInterval(() => {
-    topicTextEl.textContent = generateScramble(selected.topic.length);
-    scrambleCount++;
-    if (scrambleCount > 3) {
-      clearInterval(scrambleInterval);
-      topicTextEl.textContent = selected.topic;
-      topicCategoryEl.textContent = selected.category;
-    }
-  }, 30);
+  // Decrypted Text effect
+  topicCategoryEl.textContent = selected.category;
+  animateDecryptedText(topicTextEl, selected.topic);
 }
 
-function generateScramble(length) {
-  const chars = "!<>-_\\/[]{}—=+*^?#_";
-  let str = "";
-  // Limit to avoid overflow during scramble
-  for (let i = 0; i < Math.min(length, 30); i++) {
-    str += chars[Math.floor(Math.random() * chars.length)];
+function animateDecryptedText(el, text) {
+  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!@#$%^&*()_+';
+  const availableChars = characters.split('');
+  const textLen = text.length;
+  let revealedIndices = new Set();
+  
+  if (el.dataset.intervalId) {
+    clearInterval(parseInt(el.dataset.intervalId));
   }
-  return str + "...";
+  
+  const shuffleText = (revealed) => {
+    return text.split('').map((char, i) => {
+      if (char === ' ') return ' ';
+      if (revealed.has(i)) return char;
+      return availableChars[Math.floor(Math.random() * availableChars.length)];
+    }).join('');
+  };
+  
+  el.textContent = shuffleText(revealedIndices);
+  
+  // Slower animation to build more anxiety
+  const charsPerTick = Math.max(1, Math.ceil(textLen / 40)); 
+  
+  const interval = setInterval(() => {
+    if (revealedIndices.size < textLen) {
+      for (let i = 0; i < charsPerTick; i++) {
+        if (revealedIndices.size < textLen) {
+          revealedIndices.add(revealedIndices.size);
+        }
+      }
+      el.textContent = shuffleText(revealedIndices);
+    } else {
+      clearInterval(interval);
+      el.textContent = text;
+      el.removeAttribute('data-interval-id');
+    }
+  }, 40);
+  
+  el.dataset.intervalId = interval.toString();
 }
 
 btnNice.addEventListener("click", () => spin("nice"));
