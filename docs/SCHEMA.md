@@ -18,10 +18,12 @@ The subject area. Must be one of:
 The question's tone. Must be one of:
 - `nice` (civil, thought-provoking discussions)
 - `violence` (controversial or polarizing arguments)
+- `myth` (bust this myth!)
 
 ## Example file
 ```csv
 topic,category,mode
 "Is artificial intelligence a threat to humanity?","Technology","violence"
 "What is the nature of consciousness?","Philosophy","nice"
+"Does IcedAmericano read these documents?","Technology","myth"
 ```
