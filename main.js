@@ -2,15 +2,11 @@ import "./style.css";
 import dohGif from "./src/assets/doh.gif";
 import html2canvas from "html2canvas";
 
-const cachedQuestions = {};
+let cachedQuestions = null;
 const seenQuestionIds = new Set();
 let lastQuestionId = null;
 
-const categoryFiles = {
-  Science: `${import.meta.env.BASE_URL}data/science.json`,
-  Technology: `${import.meta.env.BASE_URL}data/technology.json`,
-  Philosophy: `${import.meta.env.BASE_URL}data/philosophy.json`,
-};
+const QUESTIONS_URL = `${import.meta.env.BASE_URL}data/questions.json`;
 
 const topicCategoryEl = document.getElementById("topic-category");
 const topicTextEl = document.getElementById("topic-text");
@@ -24,20 +20,19 @@ const btnCloseModal = document.getElementById("btn-close-modal");
 const formSubmit = document.getElementById("submit-form");
 const btnCopyImage = document.getElementById("btn-copy-image");
 
-async function getQuestions(category) {
-
-  if (cachedQuestions[category]) {
-    return cachedQuestions[category];
+async function getQuestions() {
+  if (cachedQuestions) {
+    return cachedQuestions;
   }
 
   try {
-    const res = await fetch(categoryFiles[category]);
-    if (!res.ok) throw new Error("Failed to fetch");
+    const res = await fetch(QUESTIONS_URL);
+    if (!res.ok) throw new Error("Failed to fetch questions");
     const data = await res.json();
-    cachedQuestions[category] = data;
+    cachedQuestions = data;
     return data;
   } catch (err) {
-    console.error("Error loading category:", category, err);
+    console.error("Error loading questions:", err);
     return [];
   }
 }
@@ -52,10 +47,8 @@ async function spin(mode) {
     return;
   }
 
-  let currentQuestions = [];
-  for (const cat of selectedCategories) {
-    currentQuestions = currentQuestions.concat(await getQuestions(cat));
-  }
+  const allQuestions = await getQuestions();
+  let currentQuestions = allQuestions.filter(q => selectedCategories.includes(q.category));
 
   const excludeSeen = document.getElementById("exclude-seen-checkbox").checked;
 
