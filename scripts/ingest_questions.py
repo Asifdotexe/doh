@@ -3,17 +3,9 @@ import json
 import os
 import pandas as pd
 import pandera as pa
+from schema import schema
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "public", "data", "questions.json")
-
-VALID_CATEGORIES = ["Science", "Technology", "Philosophy"]
-VALID_MODES = ["nice", "violence"]
-
-schema = pa.DataFrameSchema({
-    "topic": pa.Column(str, nullable=False),
-    "category": pa.Column(str, checks=pa.Check.isin(VALID_CATEGORIES), nullable=False),
-    "mode": pa.Column(str, checks=pa.Check.isin(VALID_MODES), nullable=False)
-})
 
 def get_max_id(data):
     if not data: return 0
@@ -28,8 +20,15 @@ def main():
         print(f"Error: {args.file} not found.")
         return
 
-    # Read and validate CSV
+    # Read CSV
     df = pd.read_csv(args.file)
+
+    # Normalize cases to lowercase to prevent trivial validation errors
+    if "category" in df.columns:
+        df["category"] = df["category"].str.lower()
+    if "mode" in df.columns:
+        df["mode"] = df["mode"].str.lower()
+
     try:
         validated_df = schema.validate(df)
     except pa.errors.SchemaError as err:
@@ -55,9 +54,9 @@ def main():
         max_id += 1
         new_questions.append({
             "id": str(max_id),
-            "category": row["category"],
+            "category": row["category"].lower(),
             "topic": row["topic"],
-            "mode": row["mode"]
+            "mode": row["mode"].lower()
         })
 
     existing_data.extend(new_questions)
