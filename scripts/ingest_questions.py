@@ -15,9 +15,7 @@ def get_max_id(questions_list: list[dict]) -> int:
     :param questions_list: List of question dictionaries containing string IDs.
     :return: The highest integer ID present, or 0 if the list is empty.
     """
-    if not questions_list:
-        return 0
-    return max([int(question_dict.get("id", 0)) for question_dict in questions_list])
+    return max((int(question_dict.get("id", 0)) for question_dict in questions_list), default=0)
 
 def main():
     parser = argparse.ArgumentParser(description="Ingest questions from CSV.")
