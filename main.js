@@ -19,6 +19,23 @@ const btnCloseModal = document.getElementById("btn-close-modal");
 const formSubmit = document.getElementById("submit-form");
 const btnCopyImage = document.getElementById("btn-copy-image");
 
+const mythOnlyCheckbox = document.getElementById("myth-only-checkbox");
+const violenceRadio = document.querySelector('input[name="mode"][value="violence"]');
+const niceRadio = document.querySelector('input[name="mode"][value="nice"]');
+
+function syncViolenceRadioState() {
+  if (mythOnlyCheckbox.checked) {
+    violenceRadio.disabled = true;
+    if (violenceRadio.checked) {
+      niceRadio.checked = true;
+    }
+  } else {
+    violenceRadio.disabled = false;
+  }
+}
+
+mythOnlyCheckbox.addEventListener("change", syncViolenceRadioState);
+syncViolenceRadioState();
 async function getQuestions() {
   if (cachedQuestions) {
     return cachedQuestions;
@@ -53,13 +70,15 @@ async function spin() {
   const excludeSeen = document.getElementById("exclude-seen-checkbox").checked;
   const isMythOnly = document.getElementById("myth-only-checkbox").checked;
 
-  let filtered = currentQuestions.filter((q) => {
+  const modePredicate = (q) => {
+    if (isMythOnly) return q.mode === "myth";
     if (selectedMode === "nice") {
-      if (isMythOnly) return q.mode === "myth";
       return q.mode === "nice" || q.mode === "myth";
     }
-    return q.mode === selectedMode; // "violence"
-  });
+    return q.mode === selectedMode;
+  };
+
+  let filtered = currentQuestions.filter(modePredicate);
 
   if (excludeSeen) {
     filtered = filtered.filter((q) => !seenQuestionIds.has(q.id));
@@ -69,13 +88,7 @@ async function spin() {
   }
 
   if (filtered.length === 0) {
-    const totalPossible = currentQuestions.filter((q) => {
-      if (selectedMode === "nice") {
-        if (isMythOnly) return q.mode === "myth";
-        return q.mode === "nice" || q.mode === "myth";
-      }
-      return q.mode === selectedMode;
-    }).length;
+    const totalPossible = currentQuestions.filter(modePredicate).length;
 
     let messageText = "Do'h! No arguments found for this combination.";
     if (excludeSeen && totalPossible > 0) {

@@ -83,7 +83,19 @@ body {
 }
 
 .checkbox-group input {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.checkbox-group label:has(input:focus-visible) {
+  outline: 3px solid var(--text-color);
+  outline-offset: 2px;
 }
 
 .checkbox-group label {
@@ -297,7 +309,19 @@ body {
 }
 
 .toggle-label input {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.toggle-label:has(input:focus-visible) {
+  outline: 3px solid var(--text-color);
+  outline-offset: 2px;
 }
 
 .toggle-label:has(input[value="nice"]:checked) {
@@ -314,6 +338,12 @@ body {
   border: var(--border-width) solid var(--text-color);
   box-shadow: 6px 6px 0px var(--text-color);
   transform: translate(-6px, -6px);
+}
+
+.toggle-label:has(input:disabled) {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .btn-secondary {
