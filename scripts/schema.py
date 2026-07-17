@@ -6,7 +6,7 @@ import pandera as pa
 
 # FIXME: Update as more categories or modes are added
 VALID_CATEGORIES = ["science", "technology", "philosophy"]
-VALID_MODES = ["nice", "violence"]
+VALID_MODES = ["nice", "violence", "myth"]
 
 question_schema = pa.DataFrameSchema({
     # FIXME: Update as more categories or modes are added

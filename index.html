@@ -39,25 +39,45 @@
               <label><input type="checkbox" id="exclude-seen-checkbox" class="brutalist-checkbox"> EXCLUDE SEEN</label>
             </div>
           </div>
+          <div class="filter-group">
+            <label class="filter-label">SPECIAL</label>
+            <div class="checkbox-group">
+              <label><input type="checkbox" id="myth-only-checkbox" class="brutalist-checkbox"> BUST THIS MYTH!</label>
+            </div>
+          </div>
         </div>
 
-        <div class="topic-card" id="topic-card">
-          <div class="tag-container">
-            <span class="tag" id="topic-category">SYSTEM</span>
+        <div class="card-section">
+          <div class="topic-card" id="topic-card">
+            <div class="tag-container">
+              <span class="tag" id="topic-category">SYSTEM</span>
+            </div>
+            <h2 class="topic-text" id="topic-text">Select your flavor of discourse below.</h2>
+            <div class="watermark" id="watermark">
+              <h1 class="logo" style="font-size: 2rem;">Do'h</h1>
+            </div>
           </div>
-          <h2 class="topic-text" id="topic-text">Select your flavor of discourse below.</h2>
-          <div class="watermark" id="watermark">
-            <h1 class="logo" style="font-size: 2rem;">Do'h</h1>
+          
+          <div class="share-actions">
+            <button id="btn-copy-image" class="btn-icon" aria-label="Copy as Image" title="Copy as Image">📸 COPY AS IMAGE</button>
           </div>
         </div>
         
-        <div class="share-actions">
-          <button id="btn-copy-image" class="btn-icon" aria-label="Copy as Image" title="Copy as Image">📸 COPY AS IMAGE</button>
-        </div>
-        
-        <div class="action-buttons">
-          <button id="btn-nice" class="btn btn-nice">CIVIL DISCUSSION</button>
-          <button id="btn-violence" class="btn btn-violence">CHOOSE VIOLENCE</button>
+        <div class="controls-section">
+          <div class="mode-toggle">
+            <label class="toggle-label">
+              <input type="radio" name="mode" value="nice" checked>
+              CIVIL DISCUSSION
+            </label>
+            <label class="toggle-label">
+              <input type="radio" name="mode" value="violence">
+              CHOOSE VIOLENCE
+            </label>
+          </div>
+          
+          <div class="action-buttons">
+            <button id="btn-spin" class="btn btn-primary">SUGGEST TOPIC</button>
+          </div>
         </div>
       </main>
 

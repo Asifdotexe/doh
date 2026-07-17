@@ -8,6 +8,14 @@
   --nice-color: #00E676;
   --border-width: 4px;
   --shadow-offset: 8px;
+  
+  /* Layout Spacing Tokens */
+  --space-xs: clamp(0.5rem, 1.5vw, 0.75rem);
+  --space-sm: clamp(0.75rem, 2vw, 1.25rem);
+  --space-md: clamp(1.25rem, 3vw, 1.75rem);
+  --space-lg: clamp(1.75rem, 4vw, 2.5rem);
+  --space-xl: clamp(2.5rem, 5vw, 3.5rem);
+  --space-2xl: clamp(3.5rem, 6vw, 5rem);
 }
 
 * {
@@ -29,7 +37,7 @@ body {
 .app-container {
   width: 100%;
   max-width: 900px;
-  padding: 2rem;
+  padding: clamp(1rem, 4vw, 2rem);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -39,7 +47,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: var(--space-lg); /* Tightened from space-xl */
 }
 
 .logo {
@@ -54,7 +64,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: var(--space-lg);
   width: 100%;
 }
 
@@ -62,31 +72,43 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.75rem;
+  gap: var(--space-sm);
 }
 
-.brutalist-checkbox {
-  appearance: none;
-  width: 1.5rem;
-  height: 1.5rem;
-  border: var(--border-width) solid var(--text-color);
-  background-color: #FFFFFF;
-  box-shadow: 2px 2px 0px var(--text-color);
-  cursor: pointer;
-  position: relative;
-  outline: none;
+/* Filter Checkboxes as Chips */
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-.brutalist-checkbox:checked::after {
-  content: '✔';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.checkbox-group input {
+  display: none;
+}
+
+.checkbox-group label {
   font-family: 'JetBrains Mono', monospace;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  border: 2px dashed #999999;
+  background-color: #F8F8F8;
+  color: #777777;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  user-select: none;
+  display: flex;
+  align-items: center;
+  transform: translate(0, 0);
+}
+
+.checkbox-group label:has(input:checked) {
+  background-color: var(--primary-color);
   color: var(--text-color);
+  border: var(--border-width) solid var(--text-color);
+  box-shadow: 4px 4px 0px var(--text-color);
+  transform: translate(-4px, -4px);
 }
 
 .filter-label {
@@ -135,8 +157,6 @@ body {
 .share-actions {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 2rem;
-  margin-top: -1rem; /* Pull it slightly closer to the card */
 }
 
 #btn-copy-image {
@@ -167,14 +187,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
-  gap: 3rem;
+  gap: var(--space-lg); /* Tightened from space-xl */
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  align-items: stretch;
+}
+
+.controls-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md); /* Tightened from space-lg */
+  align-items: center;
 }
 
 .topic-card {
   background: #FFFFFF;
   border: var(--border-width) solid var(--text-color);
   box-shadow: var(--shadow-offset) var(--shadow-offset) 0px var(--text-color);
-  padding: 4rem 2rem;
+  padding: var(--space-xl) clamp(1rem, 4vw, var(--space-lg));
   width: 100%;
   transition: transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -185,7 +219,7 @@ body {
 }
 
 .tag-container {
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-lg);
 }
 
 .tag {
@@ -235,6 +269,51 @@ body {
   gap: 1.5rem;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.mode-toggle {
+  display: flex;
+  justify-content: center;
+  gap: clamp(0.5rem, 2vw, 1.5rem);
+  flex-wrap: wrap;
+}
+
+.toggle-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  font-size: clamp(0.85rem, 2vw, 1.1rem);
+  padding: clamp(0.4rem, 1.5vw, 0.5rem) clamp(0.5rem, 2vw, 1rem);
+  border: 2px dashed #999999;
+  background-color: #F8F8F8;
+  color: #777777;
+  box-shadow: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  user-select: none;
+  transform: translate(0, 0);
+}
+
+.toggle-label input {
+  display: none;
+}
+
+.toggle-label:has(input[value="nice"]:checked) {
+  background-color: var(--nice-color);
+  color: var(--text-color);
+  border: var(--border-width) solid var(--text-color);
+  box-shadow: 6px 6px 0px var(--text-color);
+  transform: translate(-6px, -6px);
+}
+
+.toggle-label:has(input[value="violence"]:checked) {
+  background-color: var(--danger-color);
+  color: #FFFFFF;
+  border: var(--border-width) solid var(--text-color);
+  box-shadow: 6px 6px 0px var(--text-color);
+  transform: translate(-6px, -6px);
 }
 
 .btn-secondary {

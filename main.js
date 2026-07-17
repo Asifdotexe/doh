@@ -10,8 +10,7 @@ const QUESTIONS_URL = `${import.meta.env.BASE_URL}data/questions.json`;
 
 const topicCategoryEl = document.getElementById("topic-category");
 const topicTextEl = document.getElementById("topic-text");
-const btnNice = document.getElementById("btn-nice");
-const btnViolence = document.getElementById("btn-violence");
+const btnSpin = document.getElementById("btn-spin");
 const topicCard = document.querySelector(".topic-card");
 
 const modal = document.getElementById("submit-modal");
@@ -37,7 +36,8 @@ async function getQuestions() {
   }
 }
 
-async function spin(mode) {
+async function spin() {
+  const selectedMode = document.querySelector('input[name="mode"]:checked').value;
   const checkboxes = document.querySelectorAll('#category-checkboxes input[type="checkbox"]:checked');
   const selectedCategories = Array.from(checkboxes).map(cb => cb.value);
 
@@ -51,8 +51,15 @@ async function spin(mode) {
   let currentQuestions = allQuestions.filter(q => selectedCategories.includes(q.category));
 
   const excludeSeen = document.getElementById("exclude-seen-checkbox").checked;
+  const isMythOnly = document.getElementById("myth-only-checkbox").checked;
 
-  let filtered = currentQuestions.filter((q) => q.mode === mode);
+  let filtered = currentQuestions.filter((q) => {
+    if (selectedMode === "nice") {
+      if (isMythOnly) return q.mode === "myth";
+      return q.mode === "nice" || q.mode === "myth";
+    }
+    return q.mode === selectedMode; // "violence"
+  });
 
   if (excludeSeen) {
     filtered = filtered.filter((q) => !seenQuestionIds.has(q.id));
@@ -62,28 +69,33 @@ async function spin(mode) {
   }
 
   if (filtered.length === 0) {
-    const totalPossible = currentQuestions.filter(
-      (q) => q.mode === mode,
-    ).length;
-    if (excludeSeen && totalPossible > 0) {
-      topicTextEl.innerHTML = `
-        <div style="margin-bottom: 1.5rem;">
-          <img src="${dohGif}" alt="Do'h" style="max-width: 100%; max-height: 250px; border: var(--border-width) solid var(--text-color); box-shadow: 4px 4px 0px var(--text-color);">
-        </div>
-        Do'h! We ran out of questions. Uncheck 'EXCLUDE SEEN' to restart.<br>
-        <button id="btn-suggest-empty" class="btn btn-secondary" style="margin-top: 1.5rem;">SUGGEST A TOPIC</button>
-      `;
-      topicCategoryEl.textContent = "EMPTY";
+    const totalPossible = currentQuestions.filter((q) => {
+      if (selectedMode === "nice") {
+        if (isMythOnly) return q.mode === "myth";
+        return q.mode === "nice" || q.mode === "myth";
+      }
+      return q.mode === selectedMode;
+    }).length;
 
-      document
-        .getElementById("btn-suggest-empty")
-        .addEventListener("click", () => {
-          modal.showModal();
-        });
-      return;
+    let messageText = "Do'h! No arguments found for this combination.";
+    if (excludeSeen && totalPossible > 0) {
+      messageText = "Do'h! We ran out of questions. Uncheck 'EXCLUDE SEEN' to restart.";
     }
-    topicTextEl.textContent = "No arguments found for this combination.";
+
+    topicTextEl.innerHTML = `
+      <div style="margin-bottom: 1.5rem;">
+        <img src="${dohGif}" alt="Do'h" style="max-width: 100%; max-height: 250px; border: var(--border-width) solid var(--text-color); box-shadow: 4px 4px 0px var(--text-color);">
+      </div>
+      ${messageText}<br>
+      <button id="btn-suggest-empty" class="btn btn-secondary" style="margin-top: 1.5rem;">SUGGEST A TOPIC</button>
+    `;
     topicCategoryEl.textContent = "EMPTY";
+
+    document
+      .getElementById("btn-suggest-empty")
+      .addEventListener("click", () => {
+        modal.showModal();
+      });
     return;
   }
 
@@ -143,8 +155,7 @@ function animateDecryptedText(el, text) {
   el.dataset.intervalId = interval.toString();
 }
 
-btnNice.addEventListener("click", () => spin("nice"));
-btnViolence.addEventListener("click", () => spin("violence"));
+btnSpin.addEventListener("click", () => spin());
 
 btnSubmitTopic.addEventListener("click", () => {
   modal.showModal();
