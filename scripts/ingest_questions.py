@@ -3,7 +3,8 @@ import json
 import os
 import pandas as pd
 import pandera as pa
-from schema import question_schema
+
+from scripts.schema import question_schema
 
 # Path relative to this script ensures we can execute this from any directory
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "public", "data", "questions.json")
