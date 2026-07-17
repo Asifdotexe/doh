@@ -25,3 +25,4 @@ dist-ssr
 .impeccable/live/
 .env
 .env.*
+.venv/
