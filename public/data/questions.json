@@ -1,0 +1,1724 @@
+[
+  {
+    "id": "1",
+    "category": "science",
+    "topic": "If we discover alien microbial life, should we preserve it or study it to extinction?",
+    "mode": "nice"
+  },
+  {
+    "id": "2",
+    "category": "science",
+    "topic": "What is the most plausible solution to the Fermi Paradox?",
+    "mode": "nice"
+  },
+  {
+    "id": "3",
+    "category": "science",
+    "topic": "Is there a fundamental difference between biological intelligence and synthetic intelligence?",
+    "mode": "nice"
+  },
+  {
+    "id": "4",
+    "category": "science",
+    "topic": "Does the observer effect in quantum mechanics suggest that consciousness plays a fundamental role in reality?",
+    "mode": "nice"
+  },
+  {
+    "id": "5",
+    "category": "science",
+    "topic": "What are the most profound philosophical implications of quantum entanglement?",
+    "mode": "nice"
+  },
+  {
+    "id": "6",
+    "category": "science",
+    "topic": "If the Many-Worlds interpretation is true, do our choices actually matter?",
+    "mode": "nice"
+  },
+  {
+    "id": "7",
+    "category": "science",
+    "topic": "Should the deployment of zero-day exploits by nation-states be governed by treaties similar to chemical weapons?",
+    "mode": "nice"
+  },
+  {
+    "id": "8",
+    "category": "science",
+    "topic": "Is it possible to build a perfectly secure operating system, or is complexity inherently the enemy of security?",
+    "mode": "nice"
+  },
+  {
+    "id": "9",
+    "category": "science",
+    "topic": "Space exploration is a disgusting waste of money when we have urgent problems on Earth.",
+    "mode": "violence"
+  },
+  {
+    "id": "10",
+    "category": "science",
+    "topic": "People who refuse lab-grown meat are holding back human civilization.",
+    "mode": "violence"
+  },
+  {
+    "id": "11",
+    "category": "science",
+    "topic": "Anyone who thinks a Large Language Model is actually 'thinking' is deeply delusional.",
+    "mode": "violence"
+  },
+  {
+    "id": "12",
+    "category": "science",
+    "topic": "Is the universe infinite, or does it curve back on itself in a higher dimension?",
+    "mode": "nice"
+  },
+  {
+    "id": "13",
+    "category": "science",
+    "topic": "What existed before the Big Bang, or is the concept of 'before' meaningless without time?",
+    "mode": "nice"
+  },
+  {
+    "id": "14",
+    "category": "science",
+    "topic": "Could a silicon-based biology exist in the universe, or is carbon the only viable foundation for life?",
+    "mode": "nice"
+  },
+  {
+    "id": "15",
+    "category": "science",
+    "topic": "Does convergent evolution imply that humanoid aliens are actually highly probable?",
+    "mode": "nice"
+  },
+  {
+    "id": "16",
+    "category": "science",
+    "topic": "Does the Holographic Principle suggest that our 3D reality is just a projection from a 2D surface?",
+    "mode": "nice"
+  },
+  {
+    "id": "17",
+    "category": "science",
+    "topic": "String theory has been a 40-year intellectual dead end that ruined theoretical physics.",
+    "mode": "violence"
+  },
+  {
+    "id": "18",
+    "category": "science",
+    "topic": "The search for Dark Matter is just scientists refusing to admit Einstein's equations might be wrong at galactic scales.",
+    "mode": "violence"
+  },
+  {
+    "id": "19",
+    "category": "science",
+    "topic": "Multiverse theory isn't science; it's just science fiction for physicists who can't test their equations.",
+    "mode": "violence"
+  },
+  {
+    "id": "20",
+    "category": "science",
+    "topic": "Evolutionary psychology is mostly just pseudo-scientific justification for modern toxic behavior.",
+    "mode": "violence"
+  },
+  {
+    "id": "21",
+    "category": "science",
+    "topic": "People who oppose GMOs are directly responsible for mass starvation in developing nations.",
+    "mode": "violence"
+  },
+  {
+    "id": "22",
+    "category": "science",
+    "topic": "The concept of an 'alpha male' in human biology is based on flawed wolf studies and perpetuated by insecure podcasters.",
+    "mode": "violence"
+  },
+  {
+    "id": "23",
+    "category": "science",
+    "topic": "Panpsychism is just scientists giving up on actually solving the hard problem of consciousness.",
+    "mode": "violence"
+  },
+  {
+    "id": "24",
+    "category": "science",
+    "topic": "Time travel to the past is mathematically absurd and physicists only write papers on it to get media attention.",
+    "mode": "violence"
+  },
+  {
+    "id": "25",
+    "category": "science",
+    "topic": "The Kardashev scale is a ridiculously anthropocentric way to measure alien civilizations.",
+    "mode": "violence"
+  },
+  {
+    "id": "26",
+    "category": "science",
+    "topic": "Does the replication crisis in modern science indicate a flaw in the scientific method, or just a flaw in human academic incentives?",
+    "mode": "nice"
+  },
+  {
+    "id": "27",
+    "category": "science",
+    "topic": "Peer review is fundamentally broken and mostly serves to protect established paradigms from radical new ideas.",
+    "mode": "violence"
+  },
+  {
+    "id": "28",
+    "category": "science",
+    "topic": "Can we ever achieve true objectivity in scientific observation, or are we inherently biased by our cognitive limitations?",
+    "mode": "nice"
+  },
+  {
+    "id": "29",
+    "category": "science",
+    "topic": "'Publish or perish' culture has generated more useless, derivative research in the last decade than actual scientific breakthroughs.",
+    "mode": "violence"
+  },
+  {
+    "id": "30",
+    "category": "science",
+    "topic": "If the universe goes through infinite cycles of Big Bangs and Big Crunches (Conformal Cyclic Cosmology), does time even have a meaningful beginning?",
+    "mode": "nice"
+  },
+  {
+    "id": "31",
+    "category": "science",
+    "topic": "The Big Bang theory relies on so many mathematical patches (like inflation and dark energy) that it's starting to look like the geocentric model of the universe.",
+    "mode": "violence"
+  },
+  {
+    "id": "32",
+    "category": "science",
+    "topic": "Could our entire universe just be the three-dimensional interior of a four-dimensional black hole?",
+    "mode": "nice"
+  },
+  {
+    "id": "33",
+    "category": "science",
+    "topic": "Searching for a 'Theory of Everything' is an arrogant assumption that human mathematics can fully map the physical universe.",
+    "mode": "violence"
+  },
+  {
+    "id": "34",
+    "category": "science",
+    "topic": "Is the 'Dark Forest' hypothesis the most logical explanation for why the universe is so quiet?",
+    "mode": "nice"
+  },
+  {
+    "id": "35",
+    "category": "science",
+    "topic": "The idea that aliens haven't visited us because we are 'too primitive' is just human narcissism masking our extreme cosmic isolation.",
+    "mode": "violence"
+  },
+  {
+    "id": "36",
+    "category": "science",
+    "topic": "Does the concept of the 'Great Filter' imply that our greatest existential threat is still ahead of us, or safely behind us?",
+    "mode": "nice"
+  },
+  {
+    "id": "37",
+    "category": "science",
+    "topic": "The Drake Equation is mathematically useless because we are essentially multiplying completely made-up numbers.",
+    "mode": "violence"
+  },
+  {
+    "id": "38",
+    "category": "science",
+    "topic": "If the Zoo Hypothesis is true, what specific human behavior would finally prompt extraterrestrials to make open contact?",
+    "mode": "nice"
+  },
+  {
+    "id": "39",
+    "category": "science",
+    "topic": "SETI is a massive waste of funding; any civilization advanced enough to contact us wouldn't use primitive radio waves.",
+    "mode": "violence"
+  },
+  {
+    "id": "40",
+    "category": "science",
+    "topic": "Sending out Voyager's Golden Record with our exact coordinates was the most recklessly stupid thing humanity has ever done on a cosmic scale.",
+    "mode": "violence"
+  },
+  {
+    "id": "41",
+    "category": "science",
+    "topic": "Hard determinism means you have absolutely zero free will and your entire life is just a complex, unavoidable chemical reaction playing out on a wet rock.",
+    "mode": "violence"
+  },
+  {
+    "id": "42",
+    "category": "science",
+    "topic": "If the universe is purely deterministic (Superdeterminism), does that mean the scientists running quantum experiments had no actual choice in what they decided to measure?",
+    "mode": "nice"
+  },
+  {
+    "id": "43",
+    "category": "science",
+    "topic": "The 'Banach-Tarski paradox' proves you can mathematically cut a sphere into pieces and reassemble them into two identical spheres. Does this mean mathematical infinity is a flawed concept in the physical world?",
+    "mode": "nice"
+  },
+  {
+    "id": "44",
+    "category": "science",
+    "topic": "The 'Tragedy of the Commons' proves that humans are fundamentally incapable of self-regulating without an authoritarian body to enforce laws.",
+    "mode": "violence"
+  },
+  {
+    "id": "45",
+    "category": "science",
+    "topic": "'Occam's Razor' is consistently used by lazy thinkers to dismiss complex, nuanced theories simply because they can't understand them.",
+    "mode": "violence"
+  },
+  {
+    "id": "46",
+    "category": "science",
+    "topic": "The 'Dunning-Kruger effect' shows that people with low ability overestimate themselves. Does this mean true experts are cursed to live with constant Imposter Syndrome?",
+    "mode": "nice"
+  },
+  {
+    "id": "47",
+    "category": "science",
+    "topic": "The 'Overview Effect' is a profound cognitive shift reported by astronauts when viewing Earth from space. Should world leaders be legally required to experience orbit before taking office?",
+    "mode": "nice"
+  },
+  {
+    "id": "48",
+    "category": "science",
+    "topic": "Is it likely that intelligent extraterrestrial life exists, and why have we not found it yet (the Fermi Paradox)?",
+    "mode": "nice"
+  },
+  {
+    "id": "49",
+    "category": "science",
+    "topic": "Should humanity prioritize colonizing Mars or solving problems on Earth first?",
+    "mode": "nice"
+  },
+  {
+    "id": "50",
+    "category": "science",
+    "topic": "What would the discovery of microbial life on another planet mean for our understanding of biology?",
+    "mode": "nice"
+  },
+  {
+    "id": "51",
+    "category": "science",
+    "topic": "What are the biggest challenges of long-duration human spaceflight, and how might we solve them?",
+    "mode": "nice"
+  },
+  {
+    "id": "52",
+    "category": "science",
+    "topic": "Is dark matter real, or could our understanding of gravity be fundamentally wrong?",
+    "mode": "nice"
+  },
+  {
+    "id": "53",
+    "category": "science",
+    "topic": "Should space resources like asteroid minerals be owned by whoever mines them first?",
+    "mode": "nice"
+  },
+  {
+    "id": "54",
+    "category": "science",
+    "topic": "How will the growing problem of space debris affect future space exploration?",
+    "mode": "nice"
+  },
+  {
+    "id": "55",
+    "category": "science",
+    "topic": "What is the ultimate fate of the universe, and how do different theories compare?",
+    "mode": "nice"
+  },
+  {
+    "id": "56",
+    "category": "science",
+    "topic": "Should CRISPR gene editing be used on human embryos to eliminate genetic diseases?",
+    "mode": "nice"
+  },
+  {
+    "id": "57",
+    "category": "science",
+    "topic": "What can extremophiles (organisms that survive in extreme environments) teach us about the limits of life?",
+    "mode": "nice"
+  },
+  {
+    "id": "58",
+    "category": "science",
+    "topic": "How does the human microbiome influence our health, mood, and behavior?",
+    "mode": "nice"
+  },
+  {
+    "id": "59",
+    "category": "science",
+    "topic": "How might antibiotic resistance become the next major global health crisis?",
+    "mode": "nice"
+  },
+  {
+    "id": "60",
+    "category": "science",
+    "topic": "What ethical issues arise from growing human organs in labs for transplant?",
+    "mode": "nice"
+  },
+  {
+    "id": "61",
+    "category": "science",
+    "topic": "How do epigenetics challenge our traditional understanding of genetics and inheritance?",
+    "mode": "nice"
+  },
+  {
+    "id": "62",
+    "category": "science",
+    "topic": "How could synthetic biology change medicine, agriculture, and manufacturing?",
+    "mode": "nice"
+  },
+  {
+    "id": "63",
+    "category": "science",
+    "topic": "What are the most effective strategies for removing carbon dioxide from the atmosphere?",
+    "mode": "nice"
+  },
+  {
+    "id": "64",
+    "category": "science",
+    "topic": "How might tipping points in the climate system create cascading and irreversible changes?",
+    "mode": "nice"
+  },
+  {
+    "id": "65",
+    "category": "science",
+    "topic": "What role should nuclear energy play in the transition away from fossil fuels?",
+    "mode": "nice"
+  },
+  {
+    "id": "66",
+    "category": "science",
+    "topic": "How does biodiversity loss affect ecosystem stability and human wellbeing?",
+    "mode": "nice"
+  },
+  {
+    "id": "67",
+    "category": "science",
+    "topic": "Could geoengineering solutions like solar radiation management be used safely?",
+    "mode": "nice"
+  },
+  {
+    "id": "68",
+    "category": "science",
+    "topic": "What lessons can we learn from past mass extinctions about the current biodiversity crisis?",
+    "mode": "nice"
+  },
+  {
+    "id": "69",
+    "category": "science",
+    "topic": "How might rising sea levels reshape global geography and human migration patterns?",
+    "mode": "nice"
+  },
+  {
+    "id": "70",
+    "category": "science",
+    "topic": "What are the environmental costs and benefits of different renewable energy sources?",
+    "mode": "nice"
+  },
+  {
+    "id": "71",
+    "category": "science",
+    "topic": "How does deforestation affect global weather patterns beyond just local ecosystems?",
+    "mode": "nice"
+  },
+  {
+    "id": "72",
+    "category": "science",
+    "topic": "What scientific breakthroughs would be needed to make carbon capture economically viable at scale?",
+    "mode": "nice"
+  },
+  {
+    "id": "73",
+    "topic": "A hospital AI can identify patients likely to die within six months with 90% accuracy. Should this information be shared with patients who have not asked?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "74",
+    "topic": "There are five patients who will die without organ transplants. A healthy patient comes in for a checkup. Would it ever be ethical to sacrifice one to save five?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "75",
+    "topic": "A doctor can save a patient's life with an experimental treatment that has not been approved. The patient is unconscious and cannot consent. Should the doctor proceed?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "76",
+    "topic": "Two patients need a liver transplant, but only one organ is available. One patient is a 30-year-old parent; the other is a 60-year-old scientist close to a major breakthrough. How do you decide?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "77",
+    "topic": "A pharmaceutical company develops a life-saving drug but prices it so high that only wealthy patients can afford it. Is profit-driven pricing ethical for essential medicines?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "78",
+    "topic": "Your family member has a terminal illness and asks you to help them end their life peacefully. It is illegal in your jurisdiction. What do you do?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "79",
+    "topic": "A genetic test reveals your unborn child will have a condition that causes severe suffering but is not fatal. There is no treatment. What is the ethical choice?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "80",
+    "topic": "A vaccine has a 1 in 100,000 chance of serious side effects but would prevent a disease that kills 1 in 1,000. Should it be mandatory?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "81",
+    "topic": "Is it ethical to have children knowing the environmental impact each person creates and the world they may inherit?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "82",
+    "topic": "A developing country discovers a massive oil reserve that could lift millions out of poverty but would significantly increase global carbon emissions. Should they extract it?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "83",
+    "topic": "A pharmaceutical company wants to test a new malaria vaccine in a developing country where the disease is common. The trials carry risk, but success could save millions. Is this ethical if the country lacks the regulatory infrastructure to oversee the trials?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "84",
+    "topic": "An endangered species is destroying crops that a local community depends on for survival. The community wants to cull the animals. Conservationists object. Who is right?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "85",
+    "topic": "Should companies be allowed to offset their carbon emissions by buying credits, or does this just give wealthy polluters permission to keep polluting?",
+    "category": "science",
+    "mode": "violence"
+  },
+  {
+    "id": "86",
+    "category": "science",
+    "topic": "Gene editing of human embryos should be permitted to prevent heritable disease",
+    "mode": "violence"
+  },
+  {
+    "id": "87",
+    "category": "science",
+    "topic": "Gene editing for enhancement (height, intelligence) should be permanently banned",
+    "mode": "violence"
+  },
+  {
+    "id": "88",
+    "category": "science",
+    "topic": "Parents should be allowed to select embryos by genetic profile via IVF",
+    "mode": "violence"
+  },
+  {
+    "id": "89",
+    "category": "science",
+    "topic": "Cloning of human beings should be prohibited under international law",
+    "mode": "nice"
+  },
+  {
+    "id": "90",
+    "category": "science",
+    "topic": "Gene drives should be used to eradicate malaria-carrying mosquito populations",
+    "mode": "violence"
+  },
+  {
+    "id": "91",
+    "category": "science",
+    "topic": "De-extinction of species like the woolly mammoth is a worthwhile use of resources",
+    "mode": "nice"
+  },
+  {
+    "id": "92",
+    "category": "science",
+    "topic": "Genetically modified crops should be labeled by law",
+    "mode": "nice"
+  },
+  {
+    "id": "93",
+    "category": "science",
+    "topic": "Synthetic biology research should require a global licensing regime",
+    "mode": "nice"
+  },
+  {
+    "id": "94",
+    "category": "science",
+    "topic": "A person's genome is personal property they should be able to sell",
+    "mode": "violence"
+  },
+  {
+    "id": "95",
+    "category": "science",
+    "topic": "CRISPR research on human germ-line cells should be publicly funded",
+    "mode": "violence"
+  },
+  {
+    "id": "96",
+    "category": "science",
+    "topic": "Direct-to-consumer DNA testing services should be banned",
+    "mode": "nice"
+  },
+  {
+    "id": "97",
+    "category": "science",
+    "topic": "Designer-baby technology, once safe, should be available to anyone who can pay",
+    "mode": "violence"
+  },
+  {
+    "id": "98",
+    "category": "science",
+    "topic": "Government funding for crewed Mars missions is justified given problems on Earth",
+    "mode": "nice"
+  },
+  {
+    "id": "99",
+    "category": "science",
+    "topic": "Space exploration should be led by private companies, not national agencies",
+    "mode": "violence"
+  },
+  {
+    "id": "100",
+    "category": "science",
+    "topic": "Asteroid mining rights should be ownable by private firms",
+    "mode": "violence"
+  },
+  {
+    "id": "101",
+    "category": "science",
+    "topic": "A permanent human settlement on the Moon should be an international priority",
+    "mode": "nice"
+  },
+  {
+    "id": "102",
+    "category": "science",
+    "topic": "Sending humans to space is no longer worth the cost when robots can do the science",
+    "mode": "violence"
+  },
+  {
+    "id": "103",
+    "category": "science",
+    "topic": "Earth should broadcast its location to potential extraterrestrial civilizations",
+    "mode": "violence"
+  },
+  {
+    "id": "104",
+    "category": "science",
+    "topic": "Planetary protection rules that limit Mars exploration are too strict",
+    "mode": "violence"
+  },
+  {
+    "id": "105",
+    "category": "science",
+    "topic": "Space should be legally designated a global commons closed to military use",
+    "mode": "nice"
+  },
+  {
+    "id": "106",
+    "category": "science",
+    "topic": "Billionaire-funded space tourism is an irresponsible use of resources",
+    "mode": "violence"
+  },
+  {
+    "id": "107",
+    "category": "science",
+    "topic": "Humanity has a moral obligation to become a multi-planet species",
+    "mode": "nice"
+  },
+  {
+    "id": "108",
+    "category": "science",
+    "topic": "Nuclear power should be central to decarbonization efforts",
+    "mode": "violence"
+  },
+  {
+    "id": "109",
+    "category": "science",
+    "topic": "Governments should fund large-scale solar geoengineering research",
+    "mode": "violence"
+  },
+  {
+    "id": "110",
+    "category": "science",
+    "topic": "Carbon taxes are a more effective climate policy than cap-and-trade",
+    "mode": "nice"
+  },
+  {
+    "id": "111",
+    "category": "science",
+    "topic": "Wealthy nations owe climate reparations to developing countries",
+    "mode": "violence"
+  },
+  {
+    "id": "112",
+    "category": "science",
+    "topic": "Individual lifestyle change is a meaningful climate strategy, not a distraction",
+    "mode": "nice"
+  },
+  {
+    "id": "113",
+    "category": "science",
+    "topic": "Carbon capture technology is a dangerous excuse to delay emissions cuts",
+    "mode": "violence"
+  },
+  {
+    "id": "114",
+    "category": "science",
+    "topic": "A legal framework should grant rights to rivers, forests, and ecosystems",
+    "mode": "nice"
+  },
+  {
+    "id": "115",
+    "category": "science",
+    "topic": "Lab-grown meat should replace conventional livestock farming",
+    "mode": "violence"
+  },
+  {
+    "id": "116",
+    "category": "science",
+    "topic": "Degrowth is a more honest climate strategy than green growth",
+    "mode": "violence"
+  },
+  {
+    "id": "117",
+    "category": "science",
+    "topic": "Banning single-use plastics meaningfully reduces environmental harm",
+    "mode": "nice"
+  },
+  {
+    "id": "118",
+    "category": "science",
+    "topic": "The search for a theory of everything is a worthwhile use of physics funding",
+    "mode": "nice"
+  },
+  {
+    "id": "119",
+    "category": "science",
+    "topic": "Building a larger particle collider is justified given the cost",
+    "mode": "nice"
+  },
+  {
+    "id": "120",
+    "category": "science",
+    "topic": "Long-term storage of nuclear waste is a solvable engineering problem",
+    "mode": "nice"
+  },
+  {
+    "id": "121",
+    "category": "technology",
+    "topic": "Is mathematics an invention of the human brain, or a fundamental discovery of the universe?",
+    "mode": "nice"
+  },
+  {
+    "id": "122",
+    "category": "technology",
+    "topic": "Will we ever be able to upload human consciousness to a computer?",
+    "mode": "nice"
+  },
+  {
+    "id": "123",
+    "category": "technology",
+    "topic": "Should artificial intelligence systems be granted legal personhood if they can demonstrate self-awareness?",
+    "mode": "nice"
+  },
+  {
+    "id": "124",
+    "category": "technology",
+    "topic": "What happens to human purpose when AI can perform all economically valuable work better than we can?",
+    "mode": "nice"
+  },
+  {
+    "id": "125",
+    "category": "technology",
+    "topic": "Can a truly private digital currency coexist with a functioning, taxable society?",
+    "mode": "nice"
+  },
+  {
+    "id": "126",
+    "category": "technology",
+    "topic": "Is zero-knowledge proof technology the ultimate solution to online privacy?",
+    "mode": "nice"
+  },
+  {
+    "id": "127",
+    "category": "technology",
+    "topic": "What is the ethical boundary of a 'hack back' policy for private corporations defending against cyber attacks?",
+    "mode": "nice"
+  },
+  {
+    "id": "128",
+    "category": "technology",
+    "topic": "AI will inevitably destroy humanity within our lifetime.",
+    "mode": "violence"
+  },
+  {
+    "id": "129",
+    "category": "technology",
+    "topic": "Cryptocurrency is nothing but a planetary-scale Ponzi scheme destroying the environment.",
+    "mode": "violence"
+  },
+  {
+    "id": "130",
+    "category": "technology",
+    "topic": "AI art isn't real art, and people who use it are just talentless hacks stealing from real artists.",
+    "mode": "violence"
+  },
+  {
+    "id": "131",
+    "category": "technology",
+    "topic": "Open-sourcing powerful AI models is equivalent to handing out nuclear launch codes to toddlers.",
+    "mode": "violence"
+  },
+  {
+    "id": "132",
+    "category": "technology",
+    "topic": "The AI 'safety' movement is just a disguised attempt by tech monopolies to regulate away all their competition.",
+    "mode": "violence"
+  },
+  {
+    "id": "133",
+    "category": "technology",
+    "topic": "99% of 'quantum computing startups' are complete snake oil selling impossible promises to gullible venture capitalists.",
+    "mode": "violence"
+  },
+  {
+    "id": "134",
+    "category": "technology",
+    "topic": "People who use 'quantum' to explain their spirituality are insulting actual physics.",
+    "mode": "violence"
+  },
+  {
+    "id": "135",
+    "category": "technology",
+    "topic": "Decentralization is a myth; the entire crypto ecosystem is controlled by a few centralized exchanges and whales.",
+    "mode": "violence"
+  },
+  {
+    "id": "136",
+    "category": "technology",
+    "topic": "NFTs were the greatest intellectual embarrassment of the 21st century.",
+    "mode": "violence"
+  },
+  {
+    "id": "137",
+    "category": "technology",
+    "topic": "People who get phished shouldn't get their money back; absolute stupidity shouldn't be subsidized.",
+    "mode": "violence"
+  },
+  {
+    "id": "138",
+    "category": "technology",
+    "topic": "Antivirus software is basically just a state-sanctioned malware racket that slows down your computer.",
+    "mode": "violence"
+  },
+  {
+    "id": "139",
+    "category": "technology",
+    "topic": "'White hat' bug bounty hackers are literally just extortionists with better PR.",
+    "mode": "violence"
+  },
+  {
+    "id": "140",
+    "category": "technology",
+    "topic": "Does the anthropic principle actually explain the fine-tuning of the universe, or is it just a philosophical cop-out?",
+    "mode": "nice"
+  },
+  {
+    "id": "141",
+    "category": "technology",
+    "topic": "If we manage to stop cellular aging, what are the ethical implications of a functionally immortal human race?",
+    "mode": "nice"
+  },
+  {
+    "id": "142",
+    "category": "technology",
+    "topic": "Is the simulation hypothesis a modern scientific theory, or just a digital recreation of religion?",
+    "mode": "nice"
+  },
+  {
+    "id": "143",
+    "category": "technology",
+    "topic": "Can entropy be reversed on a cosmic scale, or is the heat death of the universe an absolute certainty?",
+    "mode": "nice"
+  },
+  {
+    "id": "144",
+    "category": "technology",
+    "topic": "We should absolutely bring back extinct species like the woolly mammoth; ignoring the technology is cowardly.",
+    "mode": "violence"
+  },
+  {
+    "id": "145",
+    "category": "technology",
+    "topic": "The simulation hypothesis is just creationism for tech bros who took too many psychedelics.",
+    "mode": "violence"
+  },
+  {
+    "id": "146",
+    "category": "technology",
+    "topic": "Could extraterrestrial intelligence be so vastly different from us that we are currently looking at their technology and mistaking it for natural phenomena?",
+    "mode": "nice"
+  },
+  {
+    "id": "147",
+    "category": "technology",
+    "topic": "Laplace's Demon states that if we knew the precise location and momentum of every particle, we could calculate the entire future. Does quantum uncertainty destroy this idea, or is there a hidden deterministic layer?",
+    "mode": "nice"
+  },
+  {
+    "id": "148",
+    "category": "technology",
+    "topic": "People who cling to the idea of 'free will' just don't want to admit that they are essentially highly advanced biological algorithms.",
+    "mode": "violence"
+  },
+  {
+    "id": "149",
+    "category": "technology",
+    "topic": "The 'Prisoner's Dilemma' suggests that rational individuals might not cooperate even if it's in their best interest. Is this game theory the ultimate reason international treaties fail?",
+    "mode": "nice"
+  },
+  {
+    "id": "150",
+    "category": "technology",
+    "topic": "According to 'Godel's Incompleteness Theorems', any complex mathematical system contains true statements that cannot be proven. Does this guarantee the universe holds fundamental truths we can never verify?",
+    "mode": "nice"
+  },
+  {
+    "id": "151",
+    "category": "technology",
+    "topic": "The 'Dead Internet Theory' is already our reality; you are currently spending 80% of your time online arguing with bots and algorithmic engagement bait.",
+    "mode": "violence"
+  },
+  {
+    "id": "152",
+    "category": "technology",
+    "topic": "How might the James Webb Space Telescope change our understanding of the early universe?",
+    "mode": "nice"
+  },
+  {
+    "id": "153",
+    "category": "technology",
+    "topic": "What would happen to human society if we discovered a signal from an alien civilization?",
+    "mode": "nice"
+  },
+  {
+    "id": "154",
+    "category": "technology",
+    "topic": "How close are we to curing cancer, and what are the most promising current approaches?",
+    "mode": "nice"
+  },
+  {
+    "id": "155",
+    "category": "technology",
+    "topic": "What are the most promising approaches to slowing or reversing human aging?",
+    "mode": "nice"
+  },
+  {
+    "id": "156",
+    "category": "technology",
+    "topic": "What is consciousness, and can neuroscience ever fully explain it?",
+    "mode": "nice"
+  },
+  {
+    "id": "157",
+    "category": "technology",
+    "topic": "Could an artificial intelligence ever truly understand or experience emotions?",
+    "mode": "nice"
+  },
+  {
+    "id": "158",
+    "category": "technology",
+    "topic": "How might quantum computing change the fields of drug discovery, cryptography, and climate modeling?",
+    "mode": "nice"
+  },
+  {
+    "id": "159",
+    "category": "technology",
+    "topic": "What are the scientific limits of machine learning, and what problems will it never solve?",
+    "mode": "nice"
+  },
+  {
+    "id": "160",
+    "category": "technology",
+    "topic": "How should we define and test for artificial general intelligence (AGI)?",
+    "mode": "nice"
+  },
+  {
+    "id": "161",
+    "category": "technology",
+    "topic": "What role will brain-computer interfaces play in medicine and human enhancement?",
+    "mode": "nice"
+  },
+  {
+    "id": "162",
+    "category": "technology",
+    "topic": "How might advanced robotics change surgery, elder care, and disaster response?",
+    "mode": "nice"
+  },
+  {
+    "id": "163",
+    "category": "technology",
+    "topic": "What are the unintended consequences of algorithmic decision-making in science?",
+    "mode": "nice"
+  },
+  {
+    "id": "164",
+    "category": "technology",
+    "topic": "Could nanotechnology revolutionize medicine through targeted drug delivery?",
+    "mode": "nice"
+  },
+  {
+    "id": "165",
+    "category": "technology",
+    "topic": "What scientific fields will be most transformed by AI in the next decade?",
+    "mode": "nice"
+  },
+  {
+    "id": "166",
+    "category": "technology",
+    "topic": "How do we ensure AI systems used in scientific research produce reliable and reproducible results?",
+    "mode": "nice"
+  },
+  {
+    "id": "167",
+    "topic": "A self-driving car must choose between hitting an elderly pedestrian or swerving to endanger its young passenger. How should it be programmed, and who decides?",
+    "category": "technology",
+    "mode": "violence"
+  },
+  {
+    "id": "168",
+    "topic": "An AI can predict with 95% accuracy which employees will quit within six months. Should employers use this data, and should employees be told they are being analyzed?",
+    "category": "technology",
+    "mode": "violence"
+  },
+  {
+    "id": "169",
+    "topic": "A social media algorithm discovers it can reduce teen depression by 30% but only by heavily censoring content. Should the platform implement it without telling users?",
+    "category": "technology",
+    "mode": "violence"
+  },
+  {
+    "id": "170",
+    "topic": "You discover your company's AI hiring tool consistently rates candidates from certain zip codes lower. Your boss says it is just reflecting real performance data. What do you do?",
+    "category": "technology",
+    "mode": "violence"
+  },
+  {
+    "id": "171",
+    "topic": "Your company develops an AI that could replace 10,000 jobs but save the company from bankruptcy. Do you deploy it?",
+    "category": "technology",
+    "mode": "violence"
+  },
+  {
+    "id": "172",
+    "topic": "A brain-computer interface could cure your child's severe disability but requires collecting and sharing their neural data with a tech company. Do you consent?",
+    "category": "technology",
+    "mode": "violence"
+  },
+  {
+    "id": "173",
+    "topic": "A self-driving car must choose between hitting an elderly pedestrian or swerving into a wall, likely killing the passenger. How should it be programmed, and who is responsible for the outcome?",
+    "category": "technology",
+    "mode": "violence"
+  },
+  {
+    "id": "174",
+    "category": "technology",
+    "topic": "Advanced AI development should be paused until safety standards are agreed",
+    "mode": "violence"
+  },
+  {
+    "id": "175",
+    "category": "technology",
+    "topic": "AI systems should be legally required to disclose when they are interacting with a person",
+    "mode": "nice"
+  },
+  {
+    "id": "176",
+    "category": "technology",
+    "topic": "Autonomous weapons that select targets without human approval should be banned",
+    "mode": "nice"
+  },
+  {
+    "id": "177",
+    "category": "technology",
+    "topic": "AI-generated scientific research should be eligible for publication and patents",
+    "mode": "violence"
+  },
+  {
+    "id": "178",
+    "category": "technology",
+    "topic": "Facial recognition technology should be banned for government use",
+    "mode": "violence"
+  },
+  {
+    "id": "179",
+    "category": "technology",
+    "topic": "AI should be permitted to make medical diagnoses without physician sign-off",
+    "mode": "violence"
+  },
+  {
+    "id": "180",
+    "category": "technology",
+    "topic": "Training AI on copyrighted data without permission should be illegal",
+    "mode": "violence"
+  },
+  {
+    "id": "181",
+    "category": "technology",
+    "topic": "A sufficiently advanced AI should be granted legal personhood",
+    "mode": "violence"
+  },
+  {
+    "id": "182",
+    "category": "technology",
+    "topic": "Predictive policing algorithms should be prohibited",
+    "mode": "nice"
+  },
+  {
+    "id": "183",
+    "category": "technology",
+    "topic": "Brain-computer interfaces should be regulated as strictly as prescription drugs",
+    "mode": "nice"
+  },
+  {
+    "id": "184",
+    "category": "philosophy",
+    "topic": "Free will is an illusion; every choice you make is predetermined by physics.",
+    "mode": "violence"
+  },
+  {
+    "id": "185",
+    "category": "philosophy",
+    "topic": "Is it more important to maximize happiness or to minimize suffering?",
+    "mode": "nice"
+  },
+  {
+    "id": "186",
+    "category": "philosophy",
+    "topic": "Morality is entirely socially constructed and objective right or wrong does not exist.",
+    "mode": "violence"
+  },
+  {
+    "id": "187",
+    "category": "philosophy",
+    "topic": "In the Ship of Theseus paradox, if we replace every single cell in a human body over 7 years, is it still the exact same person?",
+    "mode": "nice"
+  },
+  {
+    "id": "188",
+    "category": "philosophy",
+    "topic": "Roko's Basilisk is just a techno-futurist reinvention of Pascal's Wager for people who read too much sci-fi.",
+    "mode": "violence"
+  },
+  {
+    "id": "189",
+    "category": "philosophy",
+    "topic": "Maxwell's Demon suggests that information is intrinsically linked to entropy. Does this mean information is a fundamental physical property of the universe?",
+    "mode": "nice"
+  },
+  {
+    "id": "190",
+    "category": "philosophy",
+    "topic": "The Trolley Problem is a useless philosophical toy that has absolutely no practical application in programming real-world AI morality.",
+    "mode": "violence"
+  },
+  {
+    "id": "191",
+    "category": "philosophy",
+    "topic": "If a tree falls in a forest and no one is around to hear it, does it make a sound -- and does the answer change if we define sound as vibration versus experience?",
+    "mode": "nice"
+  },
+  {
+    "id": "192",
+    "category": "philosophy",
+    "topic": "Could we be living in a simulation, and if so, does it matter?",
+    "mode": "nice"
+  },
+  {
+    "id": "193",
+    "category": "philosophy",
+    "topic": "Is consciousness an illusion created by the brain, or is it the most fundamental thing in the universe?",
+    "mode": "nice"
+  },
+  {
+    "id": "194",
+    "category": "philosophy",
+    "topic": "If you could upload your mind to a computer, would the digital version be you?",
+    "mode": "nice"
+  },
+  {
+    "id": "195",
+    "category": "philosophy",
+    "topic": "Do colors look the same to everyone, or could your red be my blue?",
+    "mode": "nice"
+  },
+  {
+    "id": "196",
+    "category": "philosophy",
+    "topic": "If every cell in your body is replaced over seven years, are you the same person you were a decade ago?",
+    "mode": "nice"
+  },
+  {
+    "id": "197",
+    "category": "philosophy",
+    "topic": "Is mathematics discovered or invented?",
+    "mode": "nice"
+  },
+  {
+    "id": "198",
+    "category": "philosophy",
+    "topic": "Can something exist if no conscious being has ever perceived or conceived of it?",
+    "mode": "nice"
+  },
+  {
+    "id": "199",
+    "category": "philosophy",
+    "topic": "If you were born into a completely different family, culture, and era, would you still be you?",
+    "mode": "nice"
+  },
+  {
+    "id": "200",
+    "category": "philosophy",
+    "topic": "What came first -- the laws of physics or the universe they describe?",
+    "mode": "nice"
+  },
+  {
+    "id": "201",
+    "category": "philosophy",
+    "topic": "Is morality objective, or is it entirely a human construction that varies by culture?",
+    "mode": "nice"
+  },
+  {
+    "id": "202",
+    "category": "philosophy",
+    "topic": "If you could prevent a terrible event but only by doing something morally wrong, would it be justified?",
+    "mode": "nice"
+  },
+  {
+    "id": "203",
+    "category": "philosophy",
+    "topic": "Do we have a moral obligation to future generations we will never meet?",
+    "mode": "nice"
+  },
+  {
+    "id": "204",
+    "category": "philosophy",
+    "topic": "Is it possible to be truly selfless, or is every good deed motivated by some form of self-interest?",
+    "mode": "nice"
+  },
+  {
+    "id": "205",
+    "category": "philosophy",
+    "topic": "If an AI becomes sentient, would it deserve the same moral rights as humans?",
+    "mode": "nice"
+  },
+  {
+    "id": "206",
+    "category": "philosophy",
+    "topic": "Is ignorance ever a valid moral excuse?",
+    "mode": "nice"
+  },
+  {
+    "id": "207",
+    "category": "philosophy",
+    "topic": "Should we judge historical figures by the moral standards of their time or ours?",
+    "mode": "nice"
+  },
+  {
+    "id": "208",
+    "category": "philosophy",
+    "topic": "Is it more ethical to save five strangers or one person you love?",
+    "mode": "nice"
+  },
+  {
+    "id": "209",
+    "category": "philosophy",
+    "topic": "Can a society function without any shared moral values?",
+    "mode": "nice"
+  },
+  {
+    "id": "210",
+    "category": "philosophy",
+    "topic": "If you could eliminate all suffering but had to also eliminate all joy, would it be worth it?",
+    "mode": "nice"
+  },
+  {
+    "id": "211",
+    "category": "philosophy",
+    "topic": "If every event is caused by a prior event, do we actually have free will?",
+    "mode": "nice"
+  },
+  {
+    "id": "212",
+    "category": "philosophy",
+    "topic": "If scientists could perfectly predict your choices before you made them, would you still consider them choices?",
+    "mode": "nice"
+  },
+  {
+    "id": "213",
+    "category": "philosophy",
+    "topic": "Is a person fully responsible for their actions if their behavior is shaped by genetics and environment they did not choose?",
+    "mode": "nice"
+  },
+  {
+    "id": "214",
+    "category": "philosophy",
+    "topic": "Does the existence of subconscious decision-making undermine the concept of free will?",
+    "mode": "nice"
+  },
+  {
+    "id": "215",
+    "category": "philosophy",
+    "topic": "If you could see a complete replay of every moment that led to a criminal's actions, would punishment still feel justified?",
+    "mode": "nice"
+  },
+  {
+    "id": "216",
+    "category": "philosophy",
+    "topic": "Is free will compatible with an omniscient deity who knows everything that will happen?",
+    "mode": "nice"
+  },
+  {
+    "id": "217",
+    "category": "philosophy",
+    "topic": "Do we have free will, or do we just have the illusion of it -- and does the distinction matter?",
+    "mode": "nice"
+  },
+  {
+    "id": "218",
+    "category": "philosophy",
+    "topic": "If a robot behaved exactly like a human in every way, would it have free will?",
+    "mode": "nice"
+  },
+  {
+    "id": "219",
+    "category": "philosophy",
+    "topic": "Can you choose to believe something, or do beliefs simply happen to you based on evidence and experience?",
+    "mode": "nice"
+  },
+  {
+    "id": "220",
+    "category": "philosophy",
+    "topic": "If the universe were rewound to the exact same state, would everything play out identically?",
+    "mode": "nice"
+  },
+  {
+    "id": "221",
+    "category": "philosophy",
+    "topic": "Does life need to have an inherent purpose to be meaningful, or do we create our own meaning?",
+    "mode": "nice"
+  },
+  {
+    "id": "222",
+    "category": "philosophy",
+    "topic": "If the universe will eventually end in heat death and nothing survives, does anything we do truly matter?",
+    "mode": "nice"
+  },
+  {
+    "id": "223",
+    "category": "philosophy",
+    "topic": "Is the pursuit of happiness the highest goal, or is there something more important?",
+    "mode": "nice"
+  },
+  {
+    "id": "224",
+    "category": "philosophy",
+    "topic": "Would immortality give life more meaning or strip it of all meaning?",
+    "mode": "nice"
+  },
+  {
+    "id": "225",
+    "category": "philosophy",
+    "topic": "Is it better to live a comfortable life without much impact or a difficult life that changes the world?",
+    "mode": "nice"
+  },
+  {
+    "id": "226",
+    "category": "philosophy",
+    "topic": "Do we fear death because of the unknown, the loss of experience, or something else entirely?",
+    "mode": "nice"
+  },
+  {
+    "id": "227",
+    "category": "philosophy",
+    "topic": "If you knew with certainty there was no afterlife, would you live your life any differently?",
+    "mode": "nice"
+  },
+  {
+    "id": "228",
+    "category": "philosophy",
+    "topic": "Can suffering have intrinsic value, or is it always something to be minimized?",
+    "mode": "nice"
+  },
+  {
+    "id": "229",
+    "category": "philosophy",
+    "topic": "Is the meaning of life the same for all conscious beings, or is it unique to each individual?",
+    "mode": "nice"
+  },
+  {
+    "id": "230",
+    "category": "philosophy",
+    "topic": "If you could know the exact date and manner of your death, would you want to know?",
+    "mode": "nice"
+  },
+  {
+    "id": "231",
+    "category": "philosophy",
+    "topic": "Is absolute truth possible, or is everything filtered through subjective perspective?",
+    "mode": "nice"
+  },
+  {
+    "id": "232",
+    "category": "philosophy",
+    "topic": "If everyone believed something false, would it become true in any meaningful sense?",
+    "mode": "nice"
+  },
+  {
+    "id": "233",
+    "category": "philosophy",
+    "topic": "Can we ever truly understand another person's experience, or are we always projecting our own?",
+    "mode": "nice"
+  },
+  {
+    "id": "234",
+    "category": "philosophy",
+    "topic": "Is it possible to think without language?",
+    "mode": "nice"
+  },
+  {
+    "id": "235",
+    "category": "philosophy",
+    "topic": "Does scientific knowledge bring us closer to truth, or just closer to more useful models?",
+    "mode": "nice"
+  },
+  {
+    "id": "236",
+    "category": "philosophy",
+    "topic": "If a belief makes someone happier and harms no one, does it matter whether it is true?",
+    "mode": "nice"
+  },
+  {
+    "id": "237",
+    "category": "philosophy",
+    "topic": "Is there a limit to what humans can understand, or can we theoretically comprehend everything?",
+    "mode": "nice"
+  },
+  {
+    "id": "238",
+    "category": "philosophy",
+    "topic": "Do we see the world as it is, or as we are?",
+    "mode": "nice"
+  },
+  {
+    "id": "239",
+    "category": "philosophy",
+    "topic": "Can paradoxes exist in reality, or do they only exist in language and logic?",
+    "mode": "nice"
+  },
+  {
+    "id": "240",
+    "category": "philosophy",
+    "topic": "If you could know everything but lost the ability to wonder, would you take the trade?",
+    "mode": "nice"
+  },
+  {
+    "id": "241",
+    "topic": "An AI-generated deepfake video could exonerate an innocent person in prison. Is it ethical to use fabricated evidence to achieve a just outcome?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "242",
+    "topic": "You are a nurse who discovers a colleague has been making small errors due to exhaustion. Reporting them could end their career and leave the ward understaffed. What do you do?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "243",
+    "topic": "Your best friend's partner is cheating on them and you have proof. Your friend seems happy and their wedding is next month. Do you tell them?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "244",
+    "topic": "You find a wallet with a large amount of cash and an ID. The owner is a wealthy person who probably would not miss the money. You are struggling financially. What do you do?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "245",
+    "topic": "A coworker takes credit for your idea in a meeting. Correcting them publicly would embarrass them and create workplace tension. How do you handle it?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "246",
+    "topic": "You promised your child you would attend their school play, but your boss asks you to stay for an emergency meeting that could affect your entire team's jobs. What do you choose?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "247",
+    "topic": "You discover that a product you love and rely on is made using exploitative labor practices. Do you stop buying it even if no alternative exists?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "248",
+    "topic": "A friend asks you to write a reference letter for a job they are not qualified for. You want to support them, but you also value honesty. What do you write?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "249",
+    "topic": "You witness a minor shoplifting incident by someone who appears to be homeless and hungry. Do you report it?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "250",
+    "topic": "Your elderly parent needs daily care. You can provide it yourself but it would require quitting your job, or you can place them in a facility they do not want to go to. What do you do?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "251",
+    "topic": "You are a teacher and discover a student plagiarized an essay. They are a scholarship student and getting caught would end their academic career. How do you handle it?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "252",
+    "topic": "Is it ethical for a government to spy on its citizens if doing so prevents terrorist attacks?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "253",
+    "topic": "A city must choose between building affordable housing or preserving a historic neighborhood. Which should take priority?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "254",
+    "topic": "Should wealthy nations accept climate refugees even if it strains their own resources and social systems?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "255",
+    "topic": "A company discovers one of its products causes minor harm to a small percentage of users but major benefit to the majority. Should they recall it?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "256",
+    "topic": "Is it just to punish someone severely for a crime if harsh punishment demonstrably deters others from committing the same crime?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "257",
+    "topic": "Should a journalist publish classified information that reveals government wrongdoing if it could also endanger national security?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "258",
+    "topic": "A charity can save more lives by focusing on one specific cause, but this means ignoring other worthy causes. How should resources be allocated?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "259",
+    "topic": "Is it ethical to use the research findings of scientists who obtained their data through unethical experiments?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "260",
+    "topic": "A town must decide whether to allow a controversial industry that would create 500 jobs but increase pollution. The pollution would primarily affect the poorest neighborhood. What is the right decision?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "261",
+    "topic": "Should governments prioritize the wellbeing of current citizens or make sacrifices for future generations who cannot vote?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "262",
+    "topic": "You discover your employer has been slightly inflating revenue numbers in investor reports. It is not outright fraud, but it is misleading. Do you report it knowing it could collapse the company and cost hundreds of jobs?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "263",
+    "topic": "A talented colleague confides in you that they lied on their resume about having a degree. They have since proven themselves to be excellent at the job. Do you tell your manager?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "264",
+    "topic": "Your company asks you to lay off a team member. One person is a single parent who desperately needs the job but has lower performance. The other is single with savings but is a top performer. Who do you let go?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "265",
+    "topic": "You are a manager and learn that a popular employee is being accused of bullying by a junior staff member. No one else has witnessed it. How do you handle the situation fairly?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "266",
+    "topic": "Your company wants to sell a product you believe is overpriced and underdelivers. It is not illegal or dangerous, just not a good value. Do you push back or do your job?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "267",
+    "topic": "A coworker shares confidential salary information with you, and you discover you are being paid significantly less than peers doing the same work. How do you raise the issue without exposing your source?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "268",
+    "topic": "You are asked to write a glowing performance review for a mediocre employee because your boss wants to transfer them to another department instead of firing them. Do you comply?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "269",
+    "topic": "Your company wins a contract by underbidding competitors with a price you know is unsustainable. The plan is to raise prices after the client is locked in. Is this ethical?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "270",
+    "topic": "You notice a safety shortcut on the factory floor that saves time and money. No one has been hurt yet, but the risk is real. Reporting it could shut down production and cost your team their bonuses. What do you do?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "271",
+    "topic": "You can afford to buy an electric vehicle, but the lithium for its battery is mined under exploitative conditions in another country. Is buying it still the ethical choice?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "272",
+    "topic": "Should individuals in wealthy countries be morally required to reduce their standard of living to combat climate change, or is systemic change the only real solution?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "273",
+    "topic": "Is it ethical for wealthy nations to pay developing countries to preserve their forests instead of developing the land, effectively paying them to stay undeveloped?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "274",
+    "topic": "A new dam would provide clean energy and water to millions but would flood an indigenous community's ancestral homeland. They refuse to relocate. What should happen?",
+    "category": "philosophy",
+    "mode": "violence"
+  },
+  {
+    "id": "275",
+    "category": "philosophy",
+    "topic": "Animal testing should be banned where non-animal alternatives exist",
+    "mode": "nice"
+  },
+  {
+    "id": "276",
+    "category": "philosophy",
+    "topic": "Publicly funded research must be published in free, open-access journals",
+    "mode": "nice"
+  },
+  {
+    "id": "277",
+    "category": "philosophy",
+    "topic": "Scientists have a duty to advocate publicly on policy in their field",
+    "mode": "nice"
+  },
+  {
+    "id": "278",
+    "category": "philosophy",
+    "topic": "Gain-of-function research on dangerous pathogens should be globally prohibited",
+    "mode": "violence"
+  },
+  {
+    "id": "279",
+    "category": "philosophy",
+    "topic": "Peer review should be fully anonymous on both sides",
+    "mode": "nice"
+  },
+  {
+    "id": "280",
+    "category": "philosophy",
+    "topic": "Failed experiments and null results should be required publication",
+    "mode": "nice"
+  },
+  {
+    "id": "281",
+    "category": "philosophy",
+    "topic": "Research funded by industry should be barred from regulatory decision-making",
+    "mode": "violence"
+  },
+  {
+    "id": "282",
+    "category": "philosophy",
+    "topic": "A scientist's misconduct should permanently end their career",
+    "mode": "violence"
+  },
+  {
+    "id": "283",
+    "category": "philosophy",
+    "topic": "Human challenge trials (deliberately infecting volunteers) are ethically acceptable",
+    "mode": "violence"
+  },
+  {
+    "id": "284",
+    "category": "philosophy",
+    "topic": "Dual-use research with weaponization potential should be classified by default",
+    "mode": "violence"
+  },
+  {
+    "id": "285",
+    "category": "philosophy",
+    "topic": "The multiverse hypothesis is science rather than philosophy",
+    "mode": "nice"
+  },
+  {
+    "id": "286",
+    "category": "philosophy",
+    "topic": "The simulation hypothesis is a meaningful scientific question",
+    "mode": "violence"
+  },
+  {
+    "id": "287",
+    "category": "philosophy",
+    "topic": "Science can, in principle, explain consciousness fully",
+    "mode": "violence"
+  }
+]

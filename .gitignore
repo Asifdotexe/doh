@@ -25,3 +25,5 @@ dist-ssr
 .impeccable/live/
 .env
 .env.*
+.venv/
+scripts/__pycache__/
