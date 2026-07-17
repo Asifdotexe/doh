@@ -37,8 +37,15 @@ def main():
         return
 
     # Load existing JSON
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        existing_data = json.load(f)
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            existing_data = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: data file not found: {DATA_FILE}")
+        return
+    except json.JSONDecodeError as err:
+        print(f"Error: existing data file contains invalid JSON: {err}")
+        return
 
     max_id = get_max_id(existing_data)
 
@@ -52,7 +59,7 @@ def main():
             "topic": row["topic"],
             "mode": row["mode"]
         })
-    
+
     existing_data.extend(new_questions)
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
