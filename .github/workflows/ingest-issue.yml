@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   ingest-and-pr:
-    if: github.event.label.name == 'ingest-question'
+    if: github.event.label.name == 'submit-questions'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
