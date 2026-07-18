@@ -28,7 +28,7 @@ def main():
         return
 
     # Load into a dataframe to leverage our pandera schema for robust validation
-    questions_df = pd.read_csv(args.file)
+    questions_df = pd.read_csv(args.file, encoding="utf-8")
 
     # Users might provide inconsistent casing (e.g. "Science" vs "science").
     # We normalize to lowercase prior to validation so valid entries aren't falsely rejected.
