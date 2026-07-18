@@ -1720,5 +1720,23 @@
     "category": "philosophy",
     "topic": "Science can, in principle, explain consciousness fully",
     "mode": "violence"
+  },
+  {
+    "id": "288",
+    "category": "philosophy",
+    "topic": "Is private voice actually private?",
+    "mode": "nice"
+  },
+  {
+    "id": "289",
+    "category": "technology",
+    "topic": "Is OpenCV hard?",
+    "mode": "violence"
+  },
+  {
+    "id": "290",
+    "category": "science",
+    "topic": "Is scitech vc lame?",
+    "mode": "myth"
   }
 ]
