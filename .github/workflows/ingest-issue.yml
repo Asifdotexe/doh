@@ -30,17 +30,10 @@ jobs:
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
-          # Write the issue body to a file. 
-          # We use a simple python inline script to strip any markdown code block backticks 
+          # Write the issue body to a file.
+          # We use a simple python inline script to strip any markdown code block backticks
           # just in case the user formatted it as a code block.
-          python -c '
-import os, sys
-body = os.environ.get("ISSUE_BODY", "")
-lines = body.splitlines()
-cleaned_lines = [line for line in lines if not line.strip().startswith("```")]
-with open("temp.csv", "w", encoding="utf-8") as f:
-    f.write("\n".join(cleaned_lines) + "\n")
-'
+          python -c 'import os; body = os.environ.get("ISSUE_BODY", ""); lines = [l for l in body.splitlines() if not l.strip().startswith("```")]; open("temp.csv", "w", encoding="utf-8").write("\n".join(lines) + "\n")'
           cat temp.csv
 
       - name: Run Ingest Script
@@ -48,6 +41,7 @@ with open("temp.csv", "w", encoding="utf-8") as f:
           uv run yoink_questions --file temp.csv
 
       - name: Create Pull Request
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -55,12 +49,13 @@ with open("temp.csv", "w", encoding="utf-8") as f:
           title: "Add questions from issue #${{ github.event.issue.number }}"
           body: |
             Automated PR to add questions submitted in #${{ github.event.issue.number }}.
-            
+
             Closes #${{ github.event.issue.number }}
           branch: "ingest-issue-${{ github.event.issue.number }}"
           delete-branch: true
-          
+
       - name: Comment on Issue
+        if: steps.cpr.outputs.pull-request-number
         uses: actions/github-script@v7
         with:
           script: |
