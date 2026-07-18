@@ -39,6 +39,7 @@ jobs:
       - name: Run Ingest Script
         run: |
           uv run yoink_questions --file temp.csv
+          rm -f temp.csv
 
       - name: Create Pull Request
         id: cpr
