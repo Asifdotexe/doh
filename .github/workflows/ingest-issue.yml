@@ -1,0 +1,72 @@
+name: Ingest Question from Issue
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  ingest-and-pr:
+    if: github.event.label.name == 'ingest-question'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        run: uv python install 3.12
+
+      - name: Install project dependencies
+        run: uv sync
+
+      - name: Extract CSV from Issue Body
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          # Write the issue body to a file. 
+          # We use a simple python inline script to strip any markdown code block backticks 
+          # just in case the user formatted it as a code block.
+          python -c '
+import os, sys
+body = os.environ.get("ISSUE_BODY", "")
+lines = body.splitlines()
+cleaned_lines = [line for line in lines if not line.strip().startswith("```")]
+with open("temp.csv", "w", encoding="utf-8") as f:
+    f.write("\n".join(cleaned_lines) + "\n")
+'
+          cat temp.csv
+
+      - name: Run Ingest Script
+        run: |
+          uv run yoink_questions --file temp.csv
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Ingest new questions from issue #${{ github.event.issue.number }}"
+          title: "Add questions from issue #${{ github.event.issue.number }}"
+          body: |
+            Automated PR to add questions submitted in #${{ github.event.issue.number }}.
+            
+            Closes #${{ github.event.issue.number }}
+          branch: "ingest-issue-${{ github.event.issue.number }}"
+          delete-branch: true
+          
+      - name: Comment on Issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '🤖 I have processed the CSV from your issue and created a Pull Request with the new questions for review!'
+            })
