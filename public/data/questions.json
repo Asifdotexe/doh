@@ -1732,5 +1732,191 @@
     "category": "science",
     "topic": "Can humans survive with just one gender existing?",
     "mode": "violence"
+  },
+  {
+    "id": "290",
+    "category": "science",
+    "topic": "Do bulls become angry when they see the colour red?",
+    "mode": "myth"
+  },
+  {
+    "id": "291",
+    "category": "science",
+    "topic": "Does a duck's quack not echo?",
+    "mode": "myth"
+  },
+  {
+    "id": "292",
+    "category": "science",
+    "topic": "Is the north star the brightest star in the night sky?",
+    "mode": "myth"
+  },
+  {
+    "id": "293",
+    "category": "science",
+    "topic": "Do mice love cheese?",
+    "mode": "myth"
+  },
+  {
+    "id": "294",
+    "category": "science",
+    "topic": "Do ostriches stick their heads into the ground when threatened?",
+    "mode": "myth"
+  },
+  {
+    "id": "295",
+    "category": "science",
+    "topic": "Does lightning never strike the same place twice?",
+    "mode": "myth"
+  },
+  {
+    "id": "296",
+    "category": "science",
+    "topic": "Does cracking your knuckles frequently increase your chance of developing arthritis in your hands?",
+    "mode": "myth"
+  },
+  {
+    "id": "297",
+    "category": "science",
+    "topic": "Are bats blind?",
+    "mode": "myth"
+  },
+  {
+    "id": "298",
+    "category": "science",
+    "topic": "Is it okay to eat dropped food if you pick it up within five seconds?",
+    "mode": "myth"
+  },
+  {
+    "id": "299",
+    "category": "science",
+    "topic": "Will you catch a cold if you go outside with wet hair?",
+    "mode": "myth"
+  },
+  {
+    "id": "300",
+    "category": "science",
+    "topic": "Do goldfish have a 3-second memory?",
+    "mode": "myth"
+  },
+  {
+    "id": "301",
+    "category": "technology",
+    "topic": "Does hitting refresh make your computer work faster?",
+    "mode": "myth"
+  },
+  {
+    "id": "302",
+    "category": "technology",
+    "topic": "Is Privacy/Incognito Mode totally private?",
+    "mode": "myth"
+  },
+  {
+    "id": "303",
+    "category": "technology",
+    "topic": "Is it true that Apple's Macs and iPhones can't get malware?",
+    "mode": "myth"
+  },
+  {
+    "id": "304",
+    "category": "technology",
+    "topic": "Is Alexa recording everything?",
+    "mode": "myth"
+  },
+  {
+    "id": "305",
+    "category": "technology",
+    "topic": "Will adding RAM or a faster processor speed up any device?",
+    "mode": "myth"
+  },
+  {
+    "id": "306",
+    "category": "technology",
+    "topic": "Will leaving your device plugged in damage its battery?",
+    "mode": "myth"
+  },
+  {
+    "id": "307",
+    "category": "technology",
+    "topic": "Will you lose files if you don't 'safely remove' a USB stick?",
+    "mode": "myth"
+  },
+  {
+    "id": "308",
+    "category": "technology",
+    "topic": "Do high-megapixel cameras take the best photos?",
+    "mode": "myth"
+  },
+  {
+    "id": "309",
+    "category": "technology",
+    "topic": "Will holding a magnet close to your computer erase all of its data?",
+    "mode": "myth"
+  },
+  {
+    "id": "310",
+    "category": "philosophy",
+    "topic": "Does everything happen for a reason?",
+    "mode": "myth"
+  },
+  {
+    "id": "311",
+    "category": "philosophy",
+    "topic": "Does being rational mean suppressing emotions?",
+    "mode": "myth"
+  },
+  {
+    "id": "312",
+    "category": "philosophy",
+    "topic": "Is everything subjective?",
+    "mode": "myth"
+  },
+  {
+    "id": "313",
+    "category": "philosophy",
+    "topic": "Do more choices always mean more freedom?",
+    "mode": "myth"
+  },
+  {
+    "id": "314",
+    "category": "philosophy",
+    "topic": "Does the past define who you are?",
+    "mode": "myth"
+  },
+  {
+    "id": "315",
+    "category": "philosophy",
+    "topic": "Do good people always receive good outcomes?",
+    "mode": "myth"
+  },
+  {
+    "id": "316",
+    "category": "philosophy",
+    "topic": "Is the majority usually right?",
+    "mode": "myth"
+  },
+  {
+    "id": "317",
+    "category": "philosophy",
+    "topic": "Do people never change?",
+    "mode": "myth"
+  },
+  {
+    "id": "318",
+    "category": "philosophy",
+    "topic": "Is ignorance bliss?",
+    "mode": "myth"
+  },
+  {
+    "id": "319",
+    "category": "philosophy",
+    "topic": "Can money not buy happiness?",
+    "mode": "myth"
+  },
+  {
+    "id": "320",
+    "category": "philosophy",
+    "topic": "Does the truth always set you free?",
+    "mode": "myth"
   }
 ]
